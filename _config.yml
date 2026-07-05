@@ -1,0 +1,19 @@
+title: TPP 2026
+description: >-
+  The 22nd Theorem Proving and Provers Meeting, held on November 16-17, 2026
+  at the RIKEN AIP Tokyo Office in Nihonbashi, Tokyo.
+url: "https://auto-res.github.io"
+baseurl: "/tpp2026"
+lang: ja
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+header_pages:
+  - ja/index.md
+  - en/index.md
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

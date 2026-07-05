@@ -1,0 +1,137 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --tpp-ink: #111827;
+  --tpp-muted: #526071;
+  --tpp-line: #d8dee7;
+  --tpp-teal: #0f766e;
+  --tpp-amber: #b45309;
+  --tpp-surface: #f8fafc;
+}
+
+body {
+  color: var(--tpp-ink);
+  background:
+    linear-gradient(180deg, #ffffff 0%, var(--tpp-surface) 58%, #ffffff 100%);
+}
+
+.site-header {
+  border-top: 4px solid var(--tpp-teal);
+  border-bottom-color: var(--tpp-line);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--tpp-ink);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.site-nav .page-link {
+  color: var(--tpp-muted);
+}
+
+.site-nav .page-link:hover {
+  color: var(--tpp-teal);
+  text-decoration: none;
+}
+
+.page-content {
+  padding-top: 44px;
+}
+
+.post-title {
+  margin-bottom: 10px;
+  color: var(--tpp-ink);
+  font-weight: 760;
+  letter-spacing: 0;
+}
+
+.post-content {
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.post-content h2 {
+  margin-top: 44px;
+  padding-top: 18px;
+  border-top: 1px solid var(--tpp-line);
+  color: var(--tpp-ink);
+  font-weight: 720;
+  letter-spacing: 0;
+}
+
+.post-content a {
+  color: var(--tpp-teal);
+  text-underline-offset: 0.18em;
+}
+
+.lead {
+  margin-bottom: 2px;
+  color: var(--tpp-muted);
+  font-size: 1.24rem;
+}
+
+.tagline {
+  margin-top: 0;
+  color: var(--tpp-muted);
+}
+
+.event-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.event-list li {
+  margin-bottom: 0.72rem;
+}
+
+.event-list strong {
+  color: var(--tpp-ink);
+}
+
+.notice {
+  margin: 1.5rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 4px solid var(--tpp-amber);
+  background: #fffdf7;
+}
+
+.language-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.language-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0 1rem;
+  border: 1px solid var(--tpp-line);
+  border-radius: 999px;
+  color: var(--tpp-ink);
+  background: #ffffff;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.language-links a:first-child {
+  border-color: var(--tpp-teal);
+  color: #ffffff;
+  background: var(--tpp-teal);
+}
+
+details {
+  margin-top: 1rem;
+}
+
+summary {
+  cursor: pointer;
+  color: var(--tpp-teal);
+  font-weight: 650;
+}
