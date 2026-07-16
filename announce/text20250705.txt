@@ -6,7 +6,7 @@ IBISMLの皆様
 理研AIP / CyberAgent の園田です．
 定理証明技術の研究会 TPP 2026 のご案内です．
 
-TPP は，定理証明系・証明支援系に関する研究者・実装者・利用者の交流を目的として，2005年から毎年開催されている研究会です．計算論的・数学的観点からの発表や議論を中心に，定理証明技術に関心のある方々が広く集まる場を目指しています．
+TPP は，定理証明器・証明支援系のユーザと開発者の交流を目的として，2005年から毎年開催されている研究会です．定理証明技術に関心のある方々が広く集まる場を目指しています．
 
 TPP 2026 は，理化学研究所 革新知能統合研究センター（理研AIP）の共催により，2026年11月16日（月）から17日（火）まで，理研AIP東京オフィスにて開催します．
 
@@ -58,9 +58,9 @@ Dear all,
 This is Sho Sonoda from RIKEN AIP / CyberAgent.
 We are pleased to announce TPP 2026, The 22nd Theorem Proving and Provers Meeting.
 
-The 22nd Theorem Proving and Provers Meeting will be held on November 16-17, 2026 at the RIKEN AIP Tokyo Office in Nihonbashi, Tokyo.
+TPP has been held every year since 2005 as a meeting for users and implementors of theorem provers and proof assistants. We aim to make TPP a place where people interested in theorem proving technologies can gather widely.
 
-TPP has been held every year since 2005, and provides a forum for exchanging ideas among both users and implementors of theorem provers and proof assistants. The meeting is co-hosted by the RIKEN Center for Advanced Intelligence Project.
+TPP 2026 will be held on November 16-17, 2026 at the RIKEN AIP Tokyo Office, co-hosted by the RIKEN Center for Advanced Intelligence Project.
 
 Event website:
 https://auto-res.github.io/tpp2026/
