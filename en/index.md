@@ -7,11 +7,11 @@ lang: en
 description: TPP 2026 is the 22nd Theorem Proving and Provers Meeting, held on November 16-17, 2026 at the RIKEN AIP Tokyo Office in Nihonbashi, Tokyo.
 ---
 
-Theorem Proving and Provers Meeting
+22nd Theorem Proving and Provers Meeting
 {: .lead }
 
-A meeting for researchers, implementers, and users of theorem proving and proof assistants.
-{: .tagline }
+<!-- A meeting for researchers, implementers, and users of theorem proving and proof assistants.
+{: .tagline } -->
 
 TPP is held every year since 2005, and provides a forum to exchange ideas for both users and implementors of theorem provers and proof assistants. We aim to make TPP a place where people interested in theorem proving technologies can gather widely.
 

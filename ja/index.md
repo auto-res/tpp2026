@@ -7,11 +7,11 @@ lang: ja
 description: TPP 2026（Theorem Proving and Provers Meeting）は、2026年11月16日（月）から17日（火）まで理研AIP東京オフィスで開催されます。
 ---
 
-Theorem Proving and Provers Meeting
+22nd Theorem Proving and Provers Meeting
 {: .lead }
 
-定理証明系・証明支援系に関する研究会
-{: .tagline }
+<!-- 定理証明系・証明支援系に関する研究会
+{: .tagline } -->
 
 TPP は2005年から毎年開催される、定理証明器や証明支援系のユーザと開発者がアイデアを交換する場です。 定理証明技術に関心のある方々が広く集まる場を目指しています。
 
