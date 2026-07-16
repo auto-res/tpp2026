@@ -1,9 +1,10 @@
-件名：[案内] TPP 2026 (Theorem Proving and Provers Meeting)
+件名：[11/16-17@東京開催] TPP 2026 (Theorem Proving and Provers Meeting)
 
+(English follows)
 IBISMLの皆様
 
 理研AIP / CyberAgent の園田です．
-定理証明技術の研究会 TPP 2026 の案内です．
+定理証明技術の研究会 TPP 2026 のご案内です．
 
 TPP は，定理証明系・証明支援系に関する研究者・実装者・利用者の交流を目的として，2005年から毎年開催されている研究会です．計算論的・数学的観点からの発表や議論を中心に，定理証明技術に関心のある方々が広く集まる場を目指しています．
 
@@ -15,7 +16,7 @@ https://auto-res.github.io/tpp2026/
 参加・発表登録の詳細は後日公開します．
 定理証明，証明支援系，形式手法，プログラミング言語，数学の形式化，機械学習・AI と定理証明技術の接点などに関心のある皆様のご参加をお待ちしています．
 
-どうぞよろしくお願いします．
+何卒よろしくお願いいたします．
 
 園田
 
@@ -51,10 +52,6 @@ TPP は2005年から毎年開催される，定理証明系に関する研究者
 【連絡先】：
 sho.sonoda@riken.jp
 ============
-
-(English follows)
-
-Subject: [Announcement] TPP 2026 (Theorem Proving and Provers Meeting)
 
 Dear all,
 
