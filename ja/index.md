@@ -29,7 +29,11 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
 ## 参加・発表登録
 
 <div class="notice" markdown="1">
-後日公開します。
+10月31日（土）締切
+
+会場の席数に限りがありますので、お早めの登録をおすすめします。
+
+[https://forms.gle/yX8DjLX59LNquCJN9](https://forms.gle/yX8DjLX59LNquCJN9)
 </div>
 
 ## TPP-mark
