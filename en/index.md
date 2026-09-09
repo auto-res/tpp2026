@@ -26,6 +26,11 @@ TPP is held every year since 2005, and provides a forum to exchange ideas for bo
   <li><strong>Contact:</strong> <a href="mailto:sho.sonoda@riken.jp">sho.sonoda@riken.jp</a></li>
 </ul>
 
+## Invited Speakers
+
+- [Dr. Mario Carneiro](https://digama0.github.io/) (Chalmers University of Technology)
+- [Prof. Daisuke Bekki](https://researchmap.jp/bekki) (Ochanomizu University)
+
 ## Participation and Presentation Registration
 
 <div class="notice" markdown="1">
@@ -69,3 +74,5 @@ The 2026 TPP-mark topic is currently under consideration. Details will be added 
 </details>
 
 [日本語版]({{ '/ja/' | relative_url }})も用意しています。
+
+Last updated: September 9, 2026

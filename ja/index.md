@@ -26,6 +26,11 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
   <li><strong>連絡先：</strong><a href="mailto:sho.sonoda@riken.jp">sho.sonoda@riken.jp</a></li>
 </ul>
 
+## 招待講演者
+
+- [Dr. Mario Carneiro](https://digama0.github.io/)（Chalmers University of Technology）
+- [戸次大介 教授](https://researchmap.jp/bekki)（お茶の水女子大学）
+
 ## 参加・発表登録
 
 <div class="notice" markdown="1">
@@ -71,3 +76,5 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
 </details>
 
 [English version]({{ '/en/' | relative_url }}) is also available.
+
+最終更新日：2026年9月9日
