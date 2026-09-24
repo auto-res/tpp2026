@@ -44,7 +44,11 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
 ## TPP-mark
 
 <div class="notice" markdown="1">
-今回の TPP-mark テーマは現在検討中です。掲載情報は更新次第追記します。
+[TPP-mark 2026「Othello の解決結果を定理証明支援系で形式化せよ」]({{ '/ja/tpp2026mark/' | relative_url }})
+
+- **作問：**谷口雅弥（Masaya Taniguchi）
+- **締切：**TPP2026前日（2026年11月15日）
+- **解答提出先：**`{masaya.taniguchi, sho.sonoda} AT riken.jp`
 </div>
 
 ## これまでのTPP
@@ -77,4 +81,4 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
 
 [English version]({{ '/en/' | relative_url }}) is also available.
 
-最終更新日：2026年9月9日
+最終更新日：2026年9月24日

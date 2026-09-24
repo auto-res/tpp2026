@@ -42,7 +42,11 @@ Deadline: October 31 (Sat)
 ## TPP-mark
 
 <div class="notice" markdown="1">
-The 2026 TPP-mark topic is currently under consideration. Details will be added once finalized.
+[TPP-mark 2026: “Formalize the solved results for Othello in a proof assistant”]({{ '/en/tpp2026mark/' | relative_url }})
+
+- **Problem author:** Masaya Taniguchi
+- **Deadline:** The day before TPP 2026 (November 15, 2026)
+- **Submit solutions to:** `{masaya.taniguchi, sho.sonoda} AT riken.jp`
 </div>
 
 ## Past TPPs
@@ -75,4 +79,4 @@ The 2026 TPP-mark topic is currently under consideration. Details will be added 
 
 [日本語版]({{ '/ja/' | relative_url }})も用意しています。
 
-Last updated: September 9, 2026
+Last updated: September 24, 2026
