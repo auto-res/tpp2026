@@ -20,8 +20,11 @@ You may use any proof assistant, such as Lean, Isabelle/HOL, Rocq, or Agda.
 
 The target board sizes are 4×4, 6×6, and 8×8.
 
-> [!IMPORTANT]
-> The use of AI is permitted. If you use AI, please explain how you used it.
+<div class="notice" markdown="1">
+**Important: Use of AI**
+
+The use of AI is permitted. If you use AI, please explain how you used it.
+</div>
 
 ## Problem 1: 4×4 Othello
 
