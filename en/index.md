@@ -49,12 +49,19 @@ TPP is held every year since 2005, and provides a forum to exchange ideas for bo
 
 - **[Prof. Daisuke Bekki](https://researchmap.jp/bekki)** (Ochanomizu University)
 
-  **Title:** Propositions as Types, Meanings as Verification: Prop, Type, and Anaphora in Dependent Type Semantics
-
+  **Title:** 
+  Propositions as Types, Meanings as Verification: Prop, Type, and Anaphora in Dependent Type Semantics
+  
   <details markdown="1">
   <summary>Abstract</summary>
 
-  The English abstract will be added after confirmation by the speaker.
+  In Lean, Prop is proof-irrelevant, and all true propositions are identified with True. This is an adequate design for the formalisation of mathematics, but its granularity is not adequate for a theory of meaning in natural language. This talk argues that natural language semantics needs Type rather than Prop.
+
+  The first argument starts from the observation that truth-conditional semantics, the standard approach in the formal semantics of natural language, has exactly the granularity of Prop: the meaning of a proposition is the collection of models that make it true, and hence all tautologies have the same meaning. Its proof-theoretic alternative, verificationist semantics, takes the meaning of a proposition to be the collection of pairs of a context and a proof term that satisfy the typing judgment, and distinguishes different tautologies by their normal proof terms. Moreover, the capacity to understand a proposition, in Dummett's sense, reduces to the decidability of type checking.
+
+  The second argument concerns semantic composition for anaphora in natural language. In donkey sentences and E-type anaphora, a pronoun refers to a witness projected out of a proof term of a Sigma-type, which is exactly what existential quantification in Prop forbids. Dependent Type Semantics (DTS) is a theory of meaning that resolves these problems uniformly by introducing underspecified types. A pronoun is an open proof whose solution is found by proof search launched from inside type checking, and both anaphora resolution and presupposition projection reduce to proof search.
+
+  The second half of the talk describes how this is implemented in lightblue (a CCG parser equipped with a bidirectional type checker for DTS) and wani (an automated theorem prover for the fragment of DTS with Pi-types, Sigma-types, enumeration types, equality types and disjoint union types), how distributional semantics stands in for axioms about the atomic predicates of DTS (Neural DTS), and the tension between natural language meaning and proof assistants: distinguishable witnesses, open proofs, and normal forms as the objects of meaning.
 
   </details>
 
