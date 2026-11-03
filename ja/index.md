@@ -17,6 +17,7 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
 
 ## 更新情報
 
+- **2026年11月4日：** プログラムを公開しました（変更の可能性あり）。
 - **2026年10月3日：** 招待講演情報を更新しました。
 - **2026年9月24日：** [TPP-mark 2026]({{ '/ja/tpp2026mark/' | relative_url }}) を公開しました。
 - **2026年9月1日：** 参加・発表の募集を開始しました。
@@ -32,6 +33,9 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
   <li><strong>幹事：</strong>園田翔（理研AIP / CyberAgent）、谷口雅弥（理研AIP）</li>
   <li><strong>連絡先：</strong><a href="mailto:sho.sonoda@riken.jp">sho.sonoda@riken.jp</a></li>
 </ul>
+
+## プログラム
+- **[プログラム](https://docs.google.com/spreadsheets/d/1M4ciwdxKCbQ7eh38dc1wRzXc-Fis18Pruu5CXwHxK_8/edit?usp=sharing)**
 
 ## 招待講演者
 

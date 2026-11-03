@@ -17,6 +17,7 @@ TPP is held every year since 2005, and provides a forum to exchange ideas for bo
 
 ## Updates
 
+- **November 4, 2026:** Published the program (subject to change).
 - **October 3, 2026:** Updated the invited talk information.
 - **September 24, 2026:** Published [TPP-mark 2026]({{ '/en/tpp2026mark/' | relative_url }}).
 - **September 1, 2026:** Opened registration for participation and presentations.
@@ -32,6 +33,10 @@ TPP is held every year since 2005, and provides a forum to exchange ideas for bo
   <li><strong>Organizers:</strong> Sho Sonoda (RIKEN AIP / CyberAgent), Masaya Taniguchi (RIKEN AIP)</li>
   <li><strong>Contact:</strong> <a href="mailto:sho.sonoda@riken.jp">sho.sonoda@riken.jp</a></li>
 </ul>
+
+## Program
+- **[Program](https://docs.google.com/spreadsheets/d/1M4ciwdxKCbQ7eh38dc1wRzXc-Fis18Pruu5CXwHxK_8/edit?usp=sharing)**
+
 
 ## Invited Speakers
 
