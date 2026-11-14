@@ -125,7 +125,7 @@ Online: [https://forms.gle/ro3HB17dayZ8eUSv5](https://forms.gle/ro3HB17dayZ8eUSv
 [日本語版]({{ '/ja/' | relative_url }})も用意しています。
 
 ### Acknowledge
-This conference was partially supported by 
+This meeting is partially supported by 
 JST ARiSE JPMJAR2633,
 JST ERATO JPMJER2601,
 JST CREST JPMJCR25I5, and
