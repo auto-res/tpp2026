@@ -79,9 +79,8 @@ Deadline: October 31 (Sat)
 </div> -->
 
 <div class="notice" markdown="1">
-Deadline: October 31 (Sat)
-
-Closed.
+On-site: October 31 (Sat) Closed.
+Online: [https://forms.gle/ro3HB17dayZ8eUSv5](https://forms.gle/ro3HB17dayZ8eUSv5)
 </div>
 
 

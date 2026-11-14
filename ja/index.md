@@ -80,9 +80,9 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
 </div> -->
 
 <div class="notice" markdown="1">
-10月31日（土）締切
+現地参加：10月31日（土）締切　満席御礼　ご登録ありがとうございました
 
-多数のご登録ありがとうございました
+オンライン聴講フォーム：[https://forms.gle/ro3HB17dayZ8eUSv5](https://forms.gle/ro3HB17dayZ8eUSv5)
 </div>
 
 ## TPP-mark
