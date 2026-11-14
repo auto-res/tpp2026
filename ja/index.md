@@ -124,3 +124,11 @@ TPP は2005年から毎年開催される、定理証明器や証明支援系の
 </details>
 
 [English version]({{ '/en/' | relative_url }}) is also available.
+
+### 謝辞
+この研究会は
+JST ARiSE JPMJAR2633
+JST ERATO JPMJER2601
+JST CREST JPMJCR25I5
+JST BOOST JPMJBY24E2
+の一部支援を受けています．
