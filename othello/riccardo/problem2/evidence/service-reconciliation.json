@@ -1,0 +1,170 @@
+{
+  "format": "othello-final-problem2-ephemeral-reconciliation-v1",
+  "prepared_utc": "2026-10-19T12:41:01.456620+00:00",
+  "status": "reconciled",
+  "reservation_id": "3c51a9cf996f497dbb996aeebcca8894",
+  "outer_record": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/outer-records/final-problem2-outer.json",
+  "outer_record_sha256": "0c17ee1912950ae2a43292b35a031ed3ec01c7337c008fc7b291bea5ae692614",
+  "run_report": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/report.json",
+  "run_report_sha256": "c4100dc31cf5747c44569d9735423e744f8d5adee709f45cd285561485cef73e",
+  "child_record": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/records/final-problem2-check6.json",
+  "child_record_sha256": "c2c3ed4adf8f13c124fd752b335c5c96e83787337b8f2d7574e0c697bab42176",
+  "source_audit": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/source-audit.json",
+  "source_audit_sha256": "331939d1423f76daeb1d52163fc7514304b41be9e9e210404b593550a3543849",
+  "ephemeral_cache": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/ephemeral-cache.json",
+  "ephemeral_cache_sha256": "ff520d03cfe23c413395031bff14a7827c3cc3f44199785c70dbe7a8afb93b7e",
+  "whole_service_cpu_usage_nsec": 265381154000,
+  "whole_service_cpu_seconds_exact": 265.381154,
+  "outer_wait4_cpu_seconds": 246.00584,
+  "positive_residual_seconds": 19.375314,
+  "conservative_residual_allowance_seconds": 19.375314,
+  "stage_envelope_cpu_seconds": 2500,
+  "before_summary": {
+    "coordinator_host": "eapiova",
+    "total_cpu_seconds": 172800.0,
+    "charged_cpu_seconds": 160419.270987,
+    "reserved_cpu_seconds": 2500.0,
+    "withheld_cpu_seconds": 8327.174511,
+    "available_cpu_seconds": 1553.554502,
+    "budget_grants": {
+      "additional-compute-20261008": {
+        "allocations_us": {
+          "native": 57600000000,
+          "kernel": 21600000000,
+          "assembly": 7200000000
+        },
+        "note": "User authorized more compute on 8 October: yes we can use more. Coordinator selected an additional 24 CPU-hour stage (16 native, 6 kernel, 2 assembly); preserve past charges and existing memory/disk safeguards. This supersedes the former 24-hour ceiling for this stage.",
+        "created_utc": "2026-10-08T09:37:54.983783+00:00"
+      }
+    },
+    "categories": {
+      "native": {
+        "allocation_cpu_seconds": 36602.0,
+        "charged_cpu_seconds": 36518.553564,
+        "reserved_cpu_seconds": 0.0,
+        "withheld_cpu_seconds": 20.0,
+        "available_cpu_seconds": 63.446436
+      },
+      "kernel": {
+        "allocation_cpu_seconds": 116000.0,
+        "charged_cpu_seconds": 108734.05317,
+        "reserved_cpu_seconds": 2500.0,
+        "withheld_cpu_seconds": 4698.064395,
+        "available_cpu_seconds": 67.882435
+      },
+      "compiled": {
+        "allocation_cpu_seconds": 98.0,
+        "charged_cpu_seconds": 58.447233,
+        "reserved_cpu_seconds": 0.0,
+        "withheld_cpu_seconds": 0.0,
+        "available_cpu_seconds": 39.552767
+      },
+      "assembly": {
+        "allocation_cpu_seconds": 20100.0,
+        "charged_cpu_seconds": 15108.21702,
+        "reserved_cpu_seconds": 0.0,
+        "withheld_cpu_seconds": 3609.110116,
+        "available_cpu_seconds": 1382.672864
+      }
+    },
+    "outstanding": {
+      "3c51a9cf996f497dbb996aeebcca8894": {
+        "reservation_id": "3c51a9cf996f497dbb996aeebcca8894",
+        "category": "kernel",
+        "reserved_cpu_us": 2500000000,
+        "reserved_cpu_seconds": 2500.0,
+        "job": "final-problem2-outer",
+        "reserved_utc": "2026-10-19T12:31:58.162560+00:00"
+      }
+    }
+  },
+  "nested_child_records_charged_separately": false,
+  "Problem2_checked": true,
+  "same_optimal_pair_black16_white20": true,
+  "mathematical_objective_complete": false,
+  "all_six_views_unmounted": true,
+  "no_persistent_interfaces_written": true,
+  "whole_service_memory_peak_bytes": 8417669120,
+  "swap_peak_bytes": 0,
+  "accepted_actual_child_cpu_seconds": 174.37786,
+  "whole_service_nonchild_cpu_seconds": 91.003294,
+  "conservative_controller_trial_scope_before_final_cpu_seconds": 5754.791535,
+  "finished": {
+    "reservation_id": "3c51a9cf996f497dbb996aeebcca8894",
+    "category": "kernel",
+    "reserved_cpu_us": 2500000000,
+    "reserved_cpu_seconds": 2500.0,
+    "job": "final-problem2-outer",
+    "reserved_utc": "2026-10-19T12:31:58.162560+00:00",
+    "charged_cpu_us": 246005840,
+    "actual_cpu_seconds": 246.00584,
+    "record": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/outer-records/final-problem2-outer.json",
+    "record_sha256": "0c17ee1912950ae2a43292b35a031ed3ec01c7337c008fc7b291bea5ae692614",
+    "machine": "eapiova",
+    "accepted": true,
+    "finished_utc": "2026-10-19T12:41:01.460327+00:00",
+    "reservation_exceeded": false
+  },
+  "completed_utc": "2026-10-19T12:41:01.482975+00:00",
+  "residual_withholding": {
+    "withholding_id": "17d260aaf1094a23bdfcc40c8bc10b18",
+    "category": "kernel",
+    "cpu_us": 19375314,
+    "note": "accepted final-problem2-ephemeral6 exact terminal systemd whole-service minus wait4 residual; within same2500CPU envelope; inner Agda record not separately charged",
+    "created_utc": "2026-10-19T12:41:01.472049+00:00"
+  },
+  "total_stage_accounted_cpu_seconds": 265.381154,
+  "conservative_rounding_above_whole_seconds": 0.0,
+  "conservative_controller_trial_scope_after_final_cpu_seconds": 5845.794829,
+  "calibration_controller_scope_cap_cpu_seconds": 6000,
+  "after_summary": {
+    "coordinator_host": "eapiova",
+    "total_cpu_seconds": 172800.0,
+    "charged_cpu_seconds": 160665.276827,
+    "reserved_cpu_seconds": 0.0,
+    "withheld_cpu_seconds": 8346.549825,
+    "available_cpu_seconds": 3788.173348,
+    "budget_grants": {
+      "additional-compute-20261008": {
+        "allocations_us": {
+          "native": 57600000000,
+          "kernel": 21600000000,
+          "assembly": 7200000000
+        },
+        "note": "User authorized more compute on 8 October: yes we can use more. Coordinator selected an additional 24 CPU-hour stage (16 native, 6 kernel, 2 assembly); preserve past charges and existing memory/disk safeguards. This supersedes the former 24-hour ceiling for this stage.",
+        "created_utc": "2026-10-08T09:37:54.983783+00:00"
+      }
+    },
+    "categories": {
+      "native": {
+        "allocation_cpu_seconds": 36602.0,
+        "charged_cpu_seconds": 36518.553564,
+        "reserved_cpu_seconds": 0.0,
+        "withheld_cpu_seconds": 20.0,
+        "available_cpu_seconds": 63.446436
+      },
+      "kernel": {
+        "allocation_cpu_seconds": 116000.0,
+        "charged_cpu_seconds": 108980.05901,
+        "reserved_cpu_seconds": 0.0,
+        "withheld_cpu_seconds": 4717.439709,
+        "available_cpu_seconds": 2302.501281
+      },
+      "compiled": {
+        "allocation_cpu_seconds": 98.0,
+        "charged_cpu_seconds": 58.447233,
+        "reserved_cpu_seconds": 0.0,
+        "withheld_cpu_seconds": 0.0,
+        "available_cpu_seconds": 39.552767
+      },
+      "assembly": {
+        "allocation_cpu_seconds": 20100.0,
+        "charged_cpu_seconds": 15108.21702,
+        "reserved_cpu_seconds": 0.0,
+        "withheld_cpu_seconds": 3609.110116,
+        "available_cpu_seconds": 1382.672864
+      }
+    },
+    "outstanding": {}
+  }
+}

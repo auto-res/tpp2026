@@ -1,0 +1,138 @@
+{
+  "format": "tpp2026-review-envelope-v1",
+  "Problem1_complete": true,
+  "Problem2_complete": true,
+  "Problem3_complete": false,
+  "no_new_agda_check": true,
+  "email_sent": false,
+  "research8x8_paused": true,
+  "author_display_name": "Riccardo Borsetto",
+  "Agda_binary_sha256": "c4c5dc2617e7bcb759f0a197b679480e4296d79ea0f78de430e8268b1a02b842",
+  "Problem1_tag": "tpp-mark-2026-problem1",
+  "Problem1_revision": "afa2392f6a09e24ac41ef3b1e6fe4c89994128fd",
+  "Problem2_endpoint": "Tests.CompleteUpperRows6.Result.initial6x6 : Problem2",
+  "Problem3_supplement": "historical conditional wrapper only; not latest endpoint; dependencies not included",
+  "portable_full_6x6_rebuild_verified": false,
+  "historical_paths": "preserved for provenance, not dereferenced by verifier",
+  "files": {
+    "BUILD-LATEX.md": {
+      "bytes": 369,
+      "sha256": "a80de33e937139521467e878ca11098aba1e0337de90c13e3a6d45a9b3404796"
+    },
+    "FORMAL-SOURCE.md": {
+      "bytes": 838,
+      "sha256": "07db2b81d488e9e8f7b258537fa62545fe10a5272fb2df0ed8ac00bdeba9fb46"
+    },
+    "NOTES-ON-SOURCE-COMMENTS.md": {
+      "bytes": 854,
+      "sha256": "0a7028988257feef6541b64c7dad15ba5a8da361b5276df8bd13742e776e944d"
+    },
+    "README.md": {
+      "bytes": 4450,
+      "sha256": "75a3a08d3d8be62ab3659dd7d0ee46b245b005cecbe23b758c8e99e10cefafef"
+    },
+    "formal-source.html": {
+      "bytes": 33619,
+      "sha256": "9e1453b310367a75473309fdc91c31b5e97ade611f6030f213726b68a7dbf00e"
+    },
+    "problem1/othello-agda-tpp2026-problem1.tar.gz": {
+      "bytes": 168485,
+      "sha256": "47e50072310fb1c7211fcad3227ce1d5764869f819a3a1f04f9824686ea990f6"
+    },
+    "problem1/package.json": {
+      "bytes": 1338,
+      "sha256": "1448e05d8fedf038ce2d61ca9fa876f9c18f7ec8e0f837843d0de33554e5c36a"
+    },
+    "problem2/checked-source/src/Tests/CompleteUpperRows6/Result.agda": {
+      "bytes": 596,
+      "sha256": "61fe68d1eb1680d3ce73db8bc15c224ba4bf985a337f328b9009f67e059b2174"
+    },
+    "problem2/checked-source/src/Tests/FinalProblem2Check6.agda": {
+      "bytes": 289,
+      "sha256": "76c9577f2ea56ebe007e7e391f437ca347d8b5486c71c36a08373624711db1ef"
+    },
+    "problem2/core-source.zip": {
+      "bytes": 382209,
+      "sha256": "8e50c0132e1e23813978340a73250cb9ecb709f926c4eca996e21f816126442f"
+    },
+    "problem2/evidence/checker-receipt.json": {
+      "bytes": 146339,
+      "sha256": "c2c3ed4adf8f13c124fd752b335c5c96e83787337b8f2d7574e0c697bab42176"
+    },
+    "problem2/evidence/completion.json": {
+      "bytes": 4810,
+      "sha256": "5e0ef910cbefe28244ffa0abc9f6efc45b4e6384702171b87212183f3679f3ae"
+    },
+    "problem2/evidence/reference-manifest.json": {
+      "bytes": 53256,
+      "sha256": "a7fc2911760de8236b197cf2e0c4c115311f9287e85e8411aa37503e46347ba5"
+    },
+    "problem2/evidence/service-reconciliation.json": {
+      "bytes": 7427,
+      "sha256": "e245d4daebb523525da0e63bd4974c54ae165d4436c457203223ca3074276329"
+    },
+    "problem2/evidence/source-audit.json": {
+      "bytes": 1383,
+      "sha256": "331939d1423f76daeb1d52163fc7514304b41be9e9e210404b593550a3543849"
+    },
+    "problem2/evidence/theorem-report.json": {
+      "bytes": 3179,
+      "sha256": "c4100dc31cf5747c44569d9735423e744f8d5adee709f45cd285561485cef73e"
+    },
+    "problem2/historical-source-manifest.json": {
+      "bytes": 47757,
+      "sha256": "0f562da2f6b758e7d8e9cff86e3373d9c06effe95bbbf5ca844f4bd05294201b"
+    },
+    "problem2/source-graph.json.zst": {
+      "bytes": 180263,
+      "sha256": "3f2ac5990824b4f72c4c7d1eb30de144616b35ef003efac4eaff965944d04a06"
+    },
+    "problem3-partial/CLOSURE.json": {
+      "bytes": 1906,
+      "sha256": "f9fb7be32e424c26dcfb65ee3decd5586701fe8ad20f8f04065161fdb02d3c3f"
+    },
+    "problem3-partial/Integration.agda": {
+      "bytes": 20401,
+      "sha256": "bd09497ba9692248c9a11ec105f5f296f951d271a5f0d3e37cba4153e8aa96a5"
+    },
+    "problem3-partial/proof-000.json": {
+      "bytes": 200348,
+      "sha256": "fa533d641d80669a532899e7dcd9a972fe64d51e9838dec55f3c19e73f6c3a92"
+    },
+    "sources/citations.json": {
+      "bytes": 525,
+      "sha256": "7b80569229b329814664ce7cc1eccb6984e0560247f74441a53bee112d01c56d"
+    },
+    "sources/japanese.txt": {
+      "bytes": 2359,
+      "sha256": "bf2658a322f47316418321ec9abbcf6eb792530d280df7558cfbd37b1c467cf4"
+    },
+    "sources/page.txt": {
+      "bytes": 2216,
+      "sha256": "d0b74ba1474e9abb1fadc7c112888f38dd0325dbd61fca8182a2b847c5841439"
+    },
+    "verify.py": {
+      "bytes": 2699,
+      "sha256": "0bdf74f840e5972205468d0c48e16ea20ef635dcb4307cbaa1f2adf4c398d71e"
+    },
+    "writeup.pdf": {
+      "bytes": 42334,
+      "sha256": "7efc2c2cbd5b69e4b2005bac18d0ca0844051214a473619ede00743f1cde495a"
+    },
+    "writeup.tex": {
+      "bytes": 10683,
+      "sha256": "c8b33f879e17714a59f88f5796675d19cf2c0d6b97b7cd85d34626e72f7ff104"
+    }
+  },
+  "extended_6x6_archive": {
+    "filename": "othello-agda-tpp2026-six-complete-sources-20261115-v3.tar.gz",
+    "bytes": 426517206,
+    "sha256": "bc3dfb965a6bc01aa6caca7d62d3f309fb920dc77fa3f038116607d563cd459d",
+    "included_in_review_envelope": false,
+    "selected_modules": 4128,
+    "with_wrapper": 4129,
+    "flattened_sources_cold_rebuilt": false
+  },
+  "AI_disclosure": "writeup.pdf, Section 5 (AI assistance); no separate current declaration file",
+  "PDF_generator": "LaTeX with LuaLaTeX (TeX Live 2025)"
+}

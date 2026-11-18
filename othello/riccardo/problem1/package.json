@@ -1,0 +1,37 @@
+{
+  "archive": "othello-agda-tpp2026-problem1.tar.gz",
+  "bytes": 168485,
+  "sha256": "47e50072310fb1c7211fcad3227ce1d5764869f819a3a1f04f9824686ea990f6",
+  "format": "othello-submission-v2",
+  "tag": "tpp-mark-2026-problem1",
+  "revision": "afa2392f6a09e24ac41ef3b1e6fe4c89994128fd",
+  "derived_from_archive_sha256": "2629b0e5a32f3fb89ab90d4c35824d6ea3bf0485cd8611e5bba90bb19d4fb2e0",
+  "agda_sources_byte_identical_to_original": true,
+  "checks": [
+    {
+      "file": "desktop-everything.json",
+      "machine": "eapiova",
+      "wall_seconds": 6.808572584996,
+      "peak_rss_gib": 0.16287994384765625,
+      "agda_binary_sha256": "c4c5dc2617e7bcb759f0a197b679480e4296d79ea0f78de430e8268b1a02b842"
+    },
+    {
+      "file": "desktop-release.json",
+      "machine": "eapiova",
+      "wall_seconds": 6.808756049023941,
+      "peak_rss_gib": 0.15569305419921875,
+      "agda_binary_sha256": "c4c5dc2617e7bcb759f0a197b679480e4296d79ea0f78de430e8268b1a02b842"
+    },
+    {
+      "file": "laptop-everything.json",
+      "machine": "eapiova-laptop",
+      "wall_seconds": 15.876643703999434,
+      "peak_rss_gib": 0.14879989624023438,
+      "agda_binary_sha256": "9ee82043d547e3c2e83bcf36ade67d3ab674347391996ca013583cf383449cba"
+    }
+  ],
+  "proved": [
+    "Problem 1: White wins",
+    "4×4 raw score value +8 with both strategies"
+  ]
+}

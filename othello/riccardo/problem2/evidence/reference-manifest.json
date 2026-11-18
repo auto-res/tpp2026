@@ -1,0 +1,982 @@
+{
+  "format": "othello-private-Problem2-final-source-evidence-v1",
+  "recorded_utc": "2026-10-19T12:54:05.329511+00:00",
+  "accepted_type": "Tests.CompleteUpperRows6.Result.initial6x6 : Problem2",
+  "same_optimal_pair_black16_white20": true,
+  "raw_white_minus_black": 4,
+  "source_modules_audited": 4128,
+  "project_postulates": 0,
+  "references": [
+    {
+      "kind": "selected-core-source",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/private-core-package6-20261018/core-source.zip",
+      "sha256": "8e50c0132e1e23813978340a73250cb9ecb709f926c4eca996e21f816126442f",
+      "bytes": 382209,
+      "mode": 511,
+      "mtime_ns": 1792351037014865500
+    },
+    {
+      "kind": "selected-source-graph",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/private-core-package6-20261018/source-graph.json.zst",
+      "sha256": "3f2ac5990824b4f72c4c7d1eb30de144616b35ef003efac4eaff965944d04a06",
+      "bytes": 180263,
+      "mode": 511,
+      "mtime_ns": 1792351037644621100
+    },
+    {
+      "kind": "upper-cache",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-upper-cache6-20261018/cache.zip",
+      "sha256": "f2cfa29e1279924fa71aa1e927ac59a7bc09fb58ff7c8c46392a1c1ba1c573b0",
+      "bytes": 91931780,
+      "mode": 511,
+      "mtime_ns": 1792345834209325200
+    },
+    {
+      "kind": "upper-sources",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-upper-row-sources6-20261018/row-sources.zip",
+      "sha256": "b612b4605f94c347641af72ffa7486f93e4cc05599d086e6752813882a825fc4",
+      "bytes": 104119064,
+      "mode": 511,
+      "mtime_ns": 1792347755129291100
+    },
+    {
+      "kind": "lower-cache",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-lower-cache6-20261018/cache.zip",
+      "sha256": "7dd5ea0d15b9ba5766f4ae738702dfb5708c5a1a056500e29f56df26a370cdf7",
+      "bytes": 97645857,
+      "mode": 511,
+      "mtime_ns": 1792345984952726500
+    },
+    {
+      "kind": "lower-sources",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-lower-row-sources6-20261018/row-sources.zip",
+      "sha256": "e92bf08fbe08c1c031f76ad74339b2898a65e1fa362b8e94b9ce4f9d722a513b",
+      "bytes": 111009620,
+      "mode": 511,
+      "mtime_ns": 1792349053145221400
+    },
+    {
+      "kind": "accepted-upper-Rows",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/full-row-production6-20261018/upper-row-interfaces.zip",
+      "sha256": "c0e78f00b015deebe2e9257d5d091547b13645af541f7a20929a996675dbafad",
+      "bytes": 47514830,
+      "mode": 511,
+      "mtime_ns": 1792378405626239800
+    },
+    {
+      "kind": "accepted-lower-Rows",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/full-row-production6-20261018/lower-row-interfaces.zip",
+      "sha256": "0f8dcd8faa4190fb80b10c37fbe66c07a80d3639fd03ed919fd6deda5a20ca7f",
+      "bytes": 50540933,
+      "mode": 511,
+      "mtime_ns": 1792409104134507100
+    },
+    {
+      "kind": "all667-row-check-receipts",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/full-row-production6-20261018/closed-child-records.zip",
+      "sha256": "eb043a086b416ed422ade5e6f8e9b7a783f1ebfa69076f979a8ee89b6849b2dc",
+      "bytes": 4643322,
+      "mode": 511,
+      "mtime_ns": 1792409104381221300
+    },
+    {
+      "kind": "closed-production-progress",
+      "path": "/mnt/data/othello-agda-desktop-artifacts-20261018/full-row-production6-20261018/progress.json",
+      "sha256": "e97afb84e3044ed002a6fcf62bd73d3890f28c25fb827acf2ccb271fd980bbd5",
+      "bytes": 1214371,
+      "mode": 511,
+      "mtime_ns": 1792409104395383200
+    }
+  ],
+  "selected_source_graph_decoded_sha256": "6bb569a3ef810b212e96dfa6091b6bf57ecae4b47998481e7305248d2cc736fb",
+  "exact_include_order": [
+    "wrapper-src",
+    "/home/eapiova/projects/othello-agda/runs/six-full-map-lower-generate-20261016/results/full-map-pilot6/check",
+    "/home/eapiova/projects/othello-agda/runs/six-full-map-lower-alignment-20261016/results/full-map-pilot6/check",
+    "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/380/rows",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/380/bridge",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/17924/rows",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/17924/bridge",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/21836/rows",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/21836/bridge",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/29329/rows",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/29329/bridge",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-state-floor60-20261018/results/canonical-state-pilot6/row-check",
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-state-floor60-20261018/results/canonical-state-pilot6/bridge-check",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/342/rows",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/342/bridge",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/4913/rows",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/4913/bridge",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/10441/rows",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/10441/bridge",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/15761/rows",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/15761/bridge",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/17236/rows",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/17236/bridge",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/23417/rows",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/23417/bridge",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/26707/rows",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/26707/bridge",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/33154/rows",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/33154/bridge",
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/semantic-joint",
+    "/home/eapiova/projects/othello-agda-main/results/sparse-citation-pilot6-20261018-fixed/check",
+    "/home/eapiova/projects/othello-agda-main/results/full-resolver-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/incremental-rule-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/packed-nat-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/packed-nat-probe6-20261018-split/check",
+    "/home/eapiova/projects/othello-agda-main/results/fused-row-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/specialized-rule-probe6-20261018-fixed/check",
+    "/home/eapiova/projects/othello-agda-main/results/directed-move-probe6-20261018-fixed/check",
+    "/home/eapiova/projects/othello-agda-main/results/direct-symmetry-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/row-packed-probe6-20261018-fixed/check",
+    "/home/eapiova/projects/othello-agda-main/results/length-rays-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/directed-codec-probe6-20261018-fixed/check",
+    "/home/eapiova/projects/othello-agda-main/results/unicode-codec-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/inline-entries-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/encoded-step-assembly-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/inline-scaling6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/inline-compact-scaling6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/inline-boundary-scaling6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/shared-inline-scaling6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/text-map-scaling6-20261018-fixed/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/text-map-holdout6-20261018-fixed/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/big-rows-probe6-20261018-fixed/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-common-rows-probe6-20261018-symbolic/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/global-archive-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/compact-global-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/consecutive-global-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/range-upper-probe6-20261018/check",
+    "/home/eapiova/projects/othello-agda-main/results/path-splice-probe6-20261018-fixed/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/upper-kernel-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/prefix-inline-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix20-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix21-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/lower-prefix-inline-probe6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/full-upper-repair6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/text-boxed-assembly6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/text-parametric-assembly6-20261018/check",
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/text-upper-holdout6-20261018/check",
+    "proof-src",
+    "upper-cache-src",
+    "lower-cache-src"
+  ],
+  "donor_pins": {
+    "/home/eapiova/projects/othello-agda/runs/six-full-map-lower-generate-20261016/results/full-map-pilot6/check": {
+      "source": {
+        "source_sha256": "89af60afb7ffa45b64af8984e8efff695df98e34cf3e4305cc1c780f1bfc4839",
+        "agda_source_sha256": "89af60afb7ffa45b64af8984e8efff695df98e34cf3e4305cc1c780f1bfc4839",
+        "source_files": 35761,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 35760,
+      "interface_pool_sha256": "0a9eff6c999bba736a63186e3a9008b2783fa34432a7546304d9ef75fd708e7c"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-full-map-lower-alignment-20261016/results/full-map-pilot6/check": {
+      "source": {
+        "source_sha256": "1ba50cc7e5c94ee9b0e43dde0b417264bf252adb5704d9a5a7d6ec6a9d219a39",
+        "agda_source_sha256": "1ba50cc7e5c94ee9b0e43dde0b417264bf252adb5704d9a5a7d6ec6a9d219a39",
+        "source_files": 88,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 87,
+      "interface_pool_sha256": "d97befd01b6db69e6262fc9ca94e0ffa8f7fa185dc831c5fcfc466d8505324ea"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check": {
+      "source": {
+        "source_sha256": "a6726ce3ab43200d4a35c1fd2e68b3618c45665f2bb990e48be60fc3a39ecc3e",
+        "agda_source_sha256": "a6726ce3ab43200d4a35c1fd2e68b3618c45665f2bb990e48be60fc3a39ecc3e",
+        "source_files": 3190,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3155,
+      "interface_pool_sha256": "f0416d11b483c8bf26cdbd86b9adac8b2a5269ae892ea5d6bb3ee8d7eb7ed9e7"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/380/rows": {
+      "source": {
+        "source_sha256": "a8e9c9b87262ccadf69ebb750b5c321ff38490138f008ef787c262e09f7e9ce5",
+        "agda_source_sha256": "a8e9c9b87262ccadf69ebb750b5c321ff38490138f008ef787c262e09f7e9ce5",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "b9b66c39fd4642b249f14217f6e52a03e0e54037dab32273ad64292fce0afd9f"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/380/bridge": {
+      "source": {
+        "source_sha256": "22b7dfad81a81d3388e494d29ff07b3018a13db23997cd5c14a13f2084500aa1",
+        "agda_source_sha256": "22b7dfad81a81d3388e494d29ff07b3018a13db23997cd5c14a13f2084500aa1",
+        "source_files": 3,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 2,
+      "interface_pool_sha256": "07a7e1e76ffc7954a36f755b110d1d2c6f7bfe4829316500e188f9aaf0bfd999"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/17924/rows": {
+      "source": {
+        "source_sha256": "6982ad0e3a85da7487671674ae7b69ade6c973ae6487e242b0cd5eefdcbd54f9",
+        "agda_source_sha256": "6982ad0e3a85da7487671674ae7b69ade6c973ae6487e242b0cd5eefdcbd54f9",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "f9b0f920bac028798dbafc7edda06db93054d6510b02307d890b980fe2602093"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/17924/bridge": {
+      "source": {
+        "source_sha256": "436369e27d7b31ded1c159cabb5a20b64d9d59f5107d0d229f2edb813fa306b7",
+        "agda_source_sha256": "436369e27d7b31ded1c159cabb5a20b64d9d59f5107d0d229f2edb813fa306b7",
+        "source_files": 6,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 5,
+      "interface_pool_sha256": "eab7c42e5fa3b5b68e32fe91634d408a35c752972f9c6ac690834310b58c7f3f"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/21836/rows": {
+      "source": {
+        "source_sha256": "bd678418e15fe69b6619ac41d2ecb34d001160fee2a86d9644120aa937703232",
+        "agda_source_sha256": "bd678418e15fe69b6619ac41d2ecb34d001160fee2a86d9644120aa937703232",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "3f4503691287b521e6ced3200c7af0b0b574d86812ce768d52e8ea174116547a"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/21836/bridge": {
+      "source": {
+        "source_sha256": "c2bb8ac0e388fd4ff25c9c5c3768ab042f7d3e256d8ae1a64feedb7adbe9551f",
+        "agda_source_sha256": "c2bb8ac0e388fd4ff25c9c5c3768ab042f7d3e256d8ae1a64feedb7adbe9551f",
+        "source_files": 8,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 7,
+      "interface_pool_sha256": "3937a1c7c5ee5e83cde052c0112a32bddc19b0bbb60061839a7d762661bb445f"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/29329/rows": {
+      "source": {
+        "source_sha256": "2ed285736d11ee1b30c0c8be5f0ceba288f0c8a98eb960bbe78c215606ffc1af",
+        "agda_source_sha256": "2ed285736d11ee1b30c0c8be5f0ceba288f0c8a98eb960bbe78c215606ffc1af",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "629baf60f492a1acc3c7867b47598822decc494098310052f152fce4871d4089"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-multi-20261018/results/canonical-multi-pilot6/prepared/parts/29329/bridge": {
+      "source": {
+        "source_sha256": "480bff19fbae5ff9fecdbf1a1a966618b0c794c5268dacba82683d37aeea92ab",
+        "agda_source_sha256": "480bff19fbae5ff9fecdbf1a1a966618b0c794c5268dacba82683d37aeea92ab",
+        "source_files": 16,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 15,
+      "interface_pool_sha256": "5fffacd395ed133a6e37881280041d7c4721d50a0416b232698b97c0ca19d082"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-state-floor60-20261018/results/canonical-state-pilot6/row-check": {
+      "source": {
+        "source_sha256": "557f80013fd6153a30bfdc1566d8cdc97271aa40eb8b6d8d350a781d3cbda7ba",
+        "agda_source_sha256": "557f80013fd6153a30bfdc1566d8cdc97271aa40eb8b6d8d350a781d3cbda7ba",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "4ea31db916f8b87d904212e1f29d1dd5ae170cf02169127d68fca9a9a9b4fc04"
+    },
+    "/home/eapiova/projects/othello-agda/runs/six-canonical-state-floor60-20261018/results/canonical-state-pilot6/bridge-check": {
+      "source": {
+        "source_sha256": "f080e480340be7d74b86c08be9d085534a2c71067c68251671463220544382e6",
+        "agda_source_sha256": "f080e480340be7d74b86c08be9d085534a2c71067c68251671463220544382e6",
+        "source_files": 18,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 17,
+      "interface_pool_sha256": "f482462390677858f2e73226a983688ec347266437eca86172c09f5a1c6453aa"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/342/rows": {
+      "source": {
+        "source_sha256": "21f6da3a53286e5dfc9111ff6165153e93f2b59e87cf7900da01a047e40fb87c",
+        "agda_source_sha256": "21f6da3a53286e5dfc9111ff6165153e93f2b59e87cf7900da01a047e40fb87c",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "0baeec81f0654ad243a8cf6fd73ada86f2695e3e532e461f7f7a9f248b532cd4"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/342/bridge": {
+      "source": {
+        "source_sha256": "07a7cf2745d45cf21cf5a37523e4adf215312b1ace7ed3513ebb45aac97c4636",
+        "agda_source_sha256": "07a7cf2745d45cf21cf5a37523e4adf215312b1ace7ed3513ebb45aac97c4636",
+        "source_files": 3,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 2,
+      "interface_pool_sha256": "1e53e5b70ec59ea5d46e3e8defafe84ae03818c66e64abf7bb2d5558932e99d3"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/4913/rows": {
+      "source": {
+        "source_sha256": "22c686af1b8570fb5d760162e1ed6a37831f520af0643a9badb786ec8b94bf1a",
+        "agda_source_sha256": "22c686af1b8570fb5d760162e1ed6a37831f520af0643a9badb786ec8b94bf1a",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "9b16422d4346e859aad921eb7f74aff1c2ba3c89b282a055e91870bc723bb8e7"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/4913/bridge": {
+      "source": {
+        "source_sha256": "436bb8873f557c8943d656733f4b6c73ebcfd173700c9957d84dd8bfb03e77d1",
+        "agda_source_sha256": "436bb8873f557c8943d656733f4b6c73ebcfd173700c9957d84dd8bfb03e77d1",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "167ce0094727df14a6735dd45afa33af5f2f211f14150dc431a06c21942c31df"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/10441/rows": {
+      "source": {
+        "source_sha256": "8f35261ae6fbe74002d872fd94340fe6bd9cec3b022550d8a997321ede698d94",
+        "agda_source_sha256": "8f35261ae6fbe74002d872fd94340fe6bd9cec3b022550d8a997321ede698d94",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "43338da049b992a99e677f36b886470ebad3861abca8e95c5b9dbba60c296f38"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/10441/bridge": {
+      "source": {
+        "source_sha256": "3e247b00af62ee687c92693dca074421b537e71d312f971fa31b08b934720801",
+        "agda_source_sha256": "3e247b00af62ee687c92693dca074421b537e71d312f971fa31b08b934720801",
+        "source_files": 7,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 6,
+      "interface_pool_sha256": "0f1eb4a6c0cfd77abe6418f80c57c7ee39d915c7533fabd200d7d1d701b83c53"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/15761/rows": {
+      "source": {
+        "source_sha256": "b7de7cf104471a73a6f1f9a50182ecb8e01ae5e21ddf24f5013357ebd57babcf",
+        "agda_source_sha256": "b7de7cf104471a73a6f1f9a50182ecb8e01ae5e21ddf24f5013357ebd57babcf",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "b7213e1e91f88102c637fd30b42693e4f0f2072a94e05c82773cb0be6d28b6ab"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/15761/bridge": {
+      "source": {
+        "source_sha256": "2897111f61919b9b167793e201ce4a4cb90509918d7221def09c0f5f48f52a4d",
+        "agda_source_sha256": "2897111f61919b9b167793e201ce4a4cb90509918d7221def09c0f5f48f52a4d",
+        "source_files": 8,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 7,
+      "interface_pool_sha256": "babec4b2c2f0f4a8d5f1a7e4e299ee571b262cd1a84611989d0090fd746aa623"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/17236/rows": {
+      "source": {
+        "source_sha256": "c78a7d3246b23337beb6af85ffc2a52513a4f85000a4ff96dbe39ce8ffbc6b8f",
+        "agda_source_sha256": "c78a7d3246b23337beb6af85ffc2a52513a4f85000a4ff96dbe39ce8ffbc6b8f",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "ecab5ad05228a03705b057d1df6389929fa01ca2e098e5a7c7431c2e14254475"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/17236/bridge": {
+      "source": {
+        "source_sha256": "d059c3511471d8f27105bec725460ea4c1ba6432117f5395f3b34c6f68efb051",
+        "agda_source_sha256": "d059c3511471d8f27105bec725460ea4c1ba6432117f5395f3b34c6f68efb051",
+        "source_files": 9,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 8,
+      "interface_pool_sha256": "e0e8e98c3b78aeda9f5e5a0e55016d85ed0cb98dffae03a09c8337c1c85a3fff"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/23417/rows": {
+      "source": {
+        "source_sha256": "e7823e66146b46a49db8dcf33f0263cb22d83b069fadeab445281a19fc27b8d2",
+        "agda_source_sha256": "e7823e66146b46a49db8dcf33f0263cb22d83b069fadeab445281a19fc27b8d2",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "68919bed997f90259966d6fc17645417058f8882b4308c34100f66d9c5c7f025"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/23417/bridge": {
+      "source": {
+        "source_sha256": "97d12f1b2887717f364f2e36af4839714dc146cf1ec8103b144b7cc1050d6729",
+        "agda_source_sha256": "97d12f1b2887717f364f2e36af4839714dc146cf1ec8103b144b7cc1050d6729",
+        "source_files": 7,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 6,
+      "interface_pool_sha256": "2d00837773a093544108b4f991a468fc51d5d514e8d985a1fde9f8b65ea8257f"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/26707/rows": {
+      "source": {
+        "source_sha256": "ecbea421bd2a9773ff085b652b533da2ad3d39ed3fc2d409f17de400bf5622bf",
+        "agda_source_sha256": "ecbea421bd2a9773ff085b652b533da2ad3d39ed3fc2d409f17de400bf5622bf",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "a8ef29919e0d9144b60a91ffdbab40747d2149996ef1355c970ff7f2674762aa"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/26707/bridge": {
+      "source": {
+        "source_sha256": "2b3728b1e00e6b71ed077769bff7a35a05e9f377dee33f78ca479cd2dad64563",
+        "agda_source_sha256": "2b3728b1e00e6b71ed077769bff7a35a05e9f377dee33f78ca479cd2dad64563",
+        "source_files": 14,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 13,
+      "interface_pool_sha256": "0670938d3bab64d0eab6a488664fc601a942d6c5625e00196f2f5412b8b891cc"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/33154/rows": {
+      "source": {
+        "source_sha256": "feb438c83c6b036afc834901f1f5950a37fc78d150573942e8d01134afdc57f0",
+        "agda_source_sha256": "feb438c83c6b036afc834901f1f5950a37fc78d150573942e8d01134afdc57f0",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "ec4491e676aff33485f568f6d9d8a11b0a43af860d1cc8ae0848795d1c73566c"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/prepared/parts/33154/bridge": {
+      "source": {
+        "source_sha256": "b6a5b951f3d4316041ed03df38f2c4a1a3df4172bd17af88b0dc8967dd15d1d1",
+        "agda_source_sha256": "b6a5b951f3d4316041ed03df38f2c4a1a3df4172bd17af88b0dc8967dd15d1d1",
+        "source_files": 26,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 25,
+      "interface_pool_sha256": "d61c6c4e6dcc10808d522ab8ee3d9ea8f8244ff11e37d1ad577a92038ed043ad"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/completion-batch-lower-a6-20261018/work/semantic-joint": {
+      "source": {
+        "source_sha256": "b3d693b09b0c7392ed030325ace179bc3faa781baf766224c812c13bd8efac6a",
+        "agda_source_sha256": "b3d693b09b0c7392ed030325ace179bc3faa781baf766224c812c13bd8efac6a",
+        "source_files": 2,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 1,
+      "interface_pool_sha256": "418f5916756a14a1346e4feffec95a73294dadab896d0ae4909ee430a8469279"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/sparse-citation-pilot6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "8f70cbddb764ed18f6a08487129dcae6f40b0b75596330b115cd4b8be9a92994",
+        "agda_source_sha256": "8f70cbddb764ed18f6a08487129dcae6f40b0b75596330b115cd4b8be9a92994",
+        "source_files": 52,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 50,
+      "interface_pool_sha256": "76a73046f8abf5b29f7df8ddeddcc10548188e5d297e6d1c49d34950900df660"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/full-resolver-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "87eb480cf51b51ff9dcdd23e05ffb0831b24ed223b23f902caa3d1f3e99f4c11",
+        "agda_source_sha256": "87eb480cf51b51ff9dcdd23e05ffb0831b24ed223b23f902caa3d1f3e99f4c11",
+        "source_files": 10,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 9,
+      "interface_pool_sha256": "2121bd8af97851ef1a62f10d63bfeb43a19d4df66c825b20ddb0fcd66001b7a0"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/incremental-rule-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "f8ae7da091a9cd3fdefda0afd26e6ea7d542ce8c3b72eeb5f68bf1a83f6ef045",
+        "agda_source_sha256": "f8ae7da091a9cd3fdefda0afd26e6ea7d542ce8c3b72eeb5f68bf1a83f6ef045",
+        "source_files": 5,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 4,
+      "interface_pool_sha256": "3c6a78a561b70466f023e08fcb2258a59b9570c25f091595a53f8900c3507413"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/packed-nat-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "59c1fb0ff96d7e7569b387eeaf16c28198d9d1a04db2ca5467ee359d440389fe",
+        "agda_source_sha256": "59c1fb0ff96d7e7569b387eeaf16c28198d9d1a04db2ca5467ee359d440389fe",
+        "source_files": 5,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 4,
+      "interface_pool_sha256": "79419fae687d8c21ec6ce00c71f144e22caa9301ca414d8f8441d5f066bdd568"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/packed-nat-probe6-20261018-split/check": {
+      "source": {
+        "source_sha256": "647a25e6d71b9739125277a78f8bf18b4c6e2a75a8dcef8208488a604c903e18",
+        "agda_source_sha256": "647a25e6d71b9739125277a78f8bf18b4c6e2a75a8dcef8208488a604c903e18",
+        "source_files": 6,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 5,
+      "interface_pool_sha256": "ffa8f94d3e66c684feaddee04fe2d993fa301a6a23b57d7b8edacd3903b2d8f3"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/fused-row-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "1c9235b0e96f5cc014f37b0bb7aefbef1b5c2a15aa6fd8e13000b70bf8711854",
+        "agda_source_sha256": "1c9235b0e96f5cc014f37b0bb7aefbef1b5c2a15aa6fd8e13000b70bf8711854",
+        "source_files": 8,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 2,
+      "interface_pool_sha256": "8fee29c0f2665e5365ef337ba5e0292390c287da968dab3eb5c56b64857c3805"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/specialized-rule-probe6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "eebf07ca2c3fca1a443e42d1c6df1e09fe887b79ac7ec0e8765a99cefaed53c5",
+        "agda_source_sha256": "eebf07ca2c3fca1a443e42d1c6df1e09fe887b79ac7ec0e8765a99cefaed53c5",
+        "source_files": 6,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 5,
+      "interface_pool_sha256": "f05e6b3f6ca47151c6187b3053152f6a70ee9d180c04dafc446ca1ae5dd8299f"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/directed-move-probe6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "0c67ae1acc828f7ed502f3d82814a302a44b0ffc0b7eba17ff579b76a81817cc",
+        "agda_source_sha256": "0c67ae1acc828f7ed502f3d82814a302a44b0ffc0b7eba17ff579b76a81817cc",
+        "source_files": 7,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 6,
+      "interface_pool_sha256": "81d63b7d131a8a75bb106315894f0069d9c39ed7ec2eefd50c062709e7cfb57c"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/direct-symmetry-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "3db57fcc46ba8a57902d59ec354f6f017363bcffae2699bb7c3112511fea1d40",
+        "agda_source_sha256": "3db57fcc46ba8a57902d59ec354f6f017363bcffae2699bb7c3112511fea1d40",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "5c99b95c9c8588d40b33ebf291f39c73953caa666724ab83d6dd866ee2c3851a"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/row-packed-probe6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "87e4b82c78cd88d1413ebd32b102b96277af3c281d6acd7fcef33bfeac088110",
+        "agda_source_sha256": "87e4b82c78cd88d1413ebd32b102b96277af3c281d6acd7fcef33bfeac088110",
+        "source_files": 8,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 7,
+      "interface_pool_sha256": "776e6e9f90c2b461a14c3bab3d53a9ba15bbddf0ae2d6b85dcbc00e4c3446029"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/length-rays-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "bda8c9d1a8812efde733e3ec616e434bffede6e9e3b4b5705ddfdfb3aaa3faf1",
+        "agda_source_sha256": "bda8c9d1a8812efde733e3ec616e434bffede6e9e3b4b5705ddfdfb3aaa3faf1",
+        "source_files": 7,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 6,
+      "interface_pool_sha256": "69e31bb6f5b97845cc222fa10f0bd1a6418920390726bbac18929ceb6e153518"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/directed-codec-probe6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "9e3a2468e6d480efe1d4712da6aa878d6eeb7b7a699020812c4efb969c5a873f",
+        "agda_source_sha256": "9e3a2468e6d480efe1d4712da6aa878d6eeb7b7a699020812c4efb969c5a873f",
+        "source_files": 5,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 4,
+      "interface_pool_sha256": "a776bb7a686f9259b4469b248275431c4d7f4188d5ba1ef66d941838ec3bab24"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/unicode-codec-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "653d59e4b25b9e997097d9796fc8216994725fdc0eaae81fa5156cea77fd7c32",
+        "agda_source_sha256": "653d59e4b25b9e997097d9796fc8216994725fdc0eaae81fa5156cea77fd7c32",
+        "source_files": 5,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 4,
+      "interface_pool_sha256": "de63343ed3663844cd19c29dbf1c1b5749f2feaff66f8efd754a335e1dcb58e9"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/inline-entries-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "03d258146523e0d5e0f7484a865771719c42904d4f574ccc9231f1a341d14151",
+        "agda_source_sha256": "03d258146523e0d5e0f7484a865771719c42904d4f574ccc9231f1a341d14151",
+        "source_files": 6,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 5,
+      "interface_pool_sha256": "cb0100b748aa0d5594a170ff1f6c1990025ed1989ad63fd2be8faf970c42587d"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/encoded-step-assembly-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "fc333909e0ee007033523afa4e6d80c33e417db038db9dc140c0cf4d692885d4",
+        "agda_source_sha256": "fc333909e0ee007033523afa4e6d80c33e417db038db9dc140c0cf4d692885d4",
+        "source_files": 5,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 4,
+      "interface_pool_sha256": "0166aa85c55c8afa4d5271095a114f72041065c5478aadb60d9bd2a9bff75589"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/inline-scaling6-20261018/check": {
+      "source": {
+        "source_sha256": "9b569a7cef13501b18b95d25f1f016f7d9992986d195b6c0f79c2e40430a1f7a",
+        "agda_source_sha256": "9b569a7cef13501b18b95d25f1f016f7d9992986d195b6c0f79c2e40430a1f7a",
+        "source_files": 24,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 23,
+      "interface_pool_sha256": "d6270a42fe03e24a257e47d29d658d639664b57136a551e3bfc6b66c51e27431"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/inline-compact-scaling6-20261018/check": {
+      "source": {
+        "source_sha256": "a5cd36c196d7cb09f01dc68cd1bfd54f6d3bd2e3c1ae65a7938692d62fee85e5",
+        "agda_source_sha256": "a5cd36c196d7cb09f01dc68cd1bfd54f6d3bd2e3c1ae65a7938692d62fee85e5",
+        "source_files": 17,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 16,
+      "interface_pool_sha256": "06d88c3325861d6916def2121c79d0a0a2319dc9cc0c9ef65afec9496c41934f"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/inline-boundary-scaling6-20261018/check": {
+      "source": {
+        "source_sha256": "97191e16c3333adb4c67f440b878510b6a8320798eb8fce88e21e6a0a86a1bf6",
+        "agda_source_sha256": "97191e16c3333adb4c67f440b878510b6a8320798eb8fce88e21e6a0a86a1bf6",
+        "source_files": 11,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 10,
+      "interface_pool_sha256": "5e6cc6de0c79d3a193fd23a8cb6a131e190fa186d6d9537a50221621eb45bff0"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/shared-inline-scaling6-20261018/check": {
+      "source": {
+        "source_sha256": "f4024fda45fa6262f498641ef6d7502f361f64472b1689acb4fb84cc915bcdd5",
+        "agda_source_sha256": "f4024fda45fa6262f498641ef6d7502f361f64472b1689acb4fb84cc915bcdd5",
+        "source_files": 11,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 10,
+      "interface_pool_sha256": "9ed6f229fccd64ab6741eca272466ff174aaea4766aa85e8b8eab17a3903ae9a"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/text-map-scaling6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "5a26de65760dabd112409e1f37aaf8d2634293b109c693854792c60c6889e128",
+        "agda_source_sha256": "5a26de65760dabd112409e1f37aaf8d2634293b109c693854792c60c6889e128",
+        "source_files": 18,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 10,
+      "interface_pool_sha256": "6cee651ff0ce53b3dccea0df3814a4eee2497177339d1835d8f3568e408b62b6"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/text-map-holdout6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "80e6e36c4b9b93fdb66de60928fedd5e23f28a34d5520984209bcc3c17b2d030",
+        "agda_source_sha256": "80e6e36c4b9b93fdb66de60928fedd5e23f28a34d5520984209bcc3c17b2d030",
+        "source_files": 8,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 7,
+      "interface_pool_sha256": "5503c34ec14f87d528c665aa3781aa48e642586fd5e8d011a3dba7ee991b372f"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/big-rows-probe6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "2048190f21d2ce162e16e5e6cacc194f89d17c97dbebb9ffff6ae53744323521",
+        "agda_source_sha256": "2048190f21d2ce162e16e5e6cacc194f89d17c97dbebb9ffff6ae53744323521",
+        "source_files": 12,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 11,
+      "interface_pool_sha256": "4bc6e9e3ec1b1b3bd6eace42d53989c844b5a9feba7a09b247027aa1cb89442f"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-common-rows-probe6-20261018-symbolic/check": {
+      "source": {
+        "source_sha256": "7a61a929a455a652dcdc3cac9f9d9ed9e48af93fe6566cb5177c2eca71174627",
+        "agda_source_sha256": "7a61a929a455a652dcdc3cac9f9d9ed9e48af93fe6566cb5177c2eca71174627",
+        "source_files": 6,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 5,
+      "interface_pool_sha256": "e92f754cfe70327d3c388a77f5013b2d03e4610c4b837c1dd1c904662393c6db"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/global-archive-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "47e300734dc05a1ec835da9dafd659c86cc2e271d24e026932d9ded9c4eaa163",
+        "agda_source_sha256": "47e300734dc05a1ec835da9dafd659c86cc2e271d24e026932d9ded9c4eaa163",
+        "source_files": 3,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 2,
+      "interface_pool_sha256": "bd5519edf89adf8a7e732bb0dd17f152c2c35273aa9b9eb5484cb3fefcd2e8bc"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/compact-global-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "b5afed9f9e9d07c7dfc0c41d259f99bc5d83fdb6aa265d65285ce8e10a80f21c",
+        "agda_source_sha256": "b5afed9f9e9d07c7dfc0c41d259f99bc5d83fdb6aa265d65285ce8e10a80f21c",
+        "source_files": 12,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 10,
+      "interface_pool_sha256": "fc1f016ac32cd37f0bdba3c845d67daa2a6b8166f37ab3d811e7409afc292108"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/consecutive-global-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "d1d383db53cb49fb6fae91b51e044c499ccd97ff347b26414cc4224da89627a3",
+        "agda_source_sha256": "d1d383db53cb49fb6fae91b51e044c499ccd97ff347b26414cc4224da89627a3",
+        "source_files": 3,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 2,
+      "interface_pool_sha256": "dc4618e909c322ea8fe262bd7f6ea7cadea2c42bae11168b7215c6fec311c6f1"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/range-upper-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "48fa8db89b08235ce698fc0cef81d97ef5d0c44b62ee61b1e108bbd7d1438222",
+        "agda_source_sha256": "48fa8db89b08235ce698fc0cef81d97ef5d0c44b62ee61b1e108bbd7d1438222",
+        "source_files": 6,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 5,
+      "interface_pool_sha256": "30c209fffa3d0261a6b24392ca170254b2d0cf6a0772e7d2e3f9413699421ae8"
+    },
+    "/home/eapiova/projects/othello-agda-main/results/path-splice-probe6-20261018-fixed/check": {
+      "source": {
+        "source_sha256": "133e381bbf8f9c8729a13dbb884d68d03e9a93a3faebb5ec46e12f3106b1fb11",
+        "agda_source_sha256": "133e381bbf8f9c8729a13dbb884d68d03e9a93a3faebb5ec46e12f3106b1fb11",
+        "source_files": 5,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 4,
+      "interface_pool_sha256": "04331351f174d8ade1e04e1a5352c85c8a6e7b8a492393089da30356f7fd1be3"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/upper-kernel-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "04a0a4fd370ed125091bcae1a1e622c6b3b4ca4e96b7a7df81cc5cd047fc57aa",
+        "agda_source_sha256": "04a0a4fd370ed125091bcae1a1e622c6b3b4ca4e96b7a7df81cc5cd047fc57aa",
+        "source_files": 49,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 48,
+      "interface_pool_sha256": "3f872874fd9e8802ec6d12de773e8e4ddf758937f26d03ecab98ce05e808036e"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/prefix-inline-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "b3cdd4c11b102314293c4f5e994435ec21ecd03ba3404efbe041715133d147a9",
+        "agda_source_sha256": "b3cdd4c11b102314293c4f5e994435ec21ecd03ba3404efbe041715133d147a9",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "092b3a26c8d592d36780b9ddd1d7d3345e95895a119b3d2e3c5980e615536e7c"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "b9505b218018137fc7cba0fb9e477aa6d1ff64a01d4533909ccb3f891a6c99e2",
+        "agda_source_sha256": "b9505b218018137fc7cba0fb9e477aa6d1ff64a01d4533909ccb3f891a6c99e2",
+        "source_files": 10,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 9,
+      "interface_pool_sha256": "e33195b417f16285f346f4e0bc0f50b078228534149c3df2a414f88386bfb153"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix20-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "99d13a0b0e6122f2ba2ab5d73a959756c3df05550c4de27e4889698110630a63",
+        "agda_source_sha256": "99d13a0b0e6122f2ba2ab5d73a959756c3df05550c4de27e4889698110630a63",
+        "source_files": 8,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 5,
+      "interface_pool_sha256": "fee631293534fdfdca754389499ee7921bb4e532e8890cbf1d2f76c3ad646543"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix21-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "8893dbbde952cf5089a6f2a06290238dc01bdd61eaf7e719926a64b13dd42fef",
+        "agda_source_sha256": "8893dbbde952cf5089a6f2a06290238dc01bdd61eaf7e719926a64b13dd42fef",
+        "source_files": 2,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 1,
+      "interface_pool_sha256": "b5e8da4ba080bd4fb868c57562cf75799a7bb82c1aa614a9abacd589e1f64dc0"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/lower-prefix-inline-probe6-20261018/check": {
+      "source": {
+        "source_sha256": "2d18e07eb1cac074f4cfd6ba9ccf55a2c7237f1810796dee804fab621bc51743",
+        "agda_source_sha256": "2d18e07eb1cac074f4cfd6ba9ccf55a2c7237f1810796dee804fab621bc51743",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 3,
+      "interface_pool_sha256": "49d6961cabb1fe7d51c17a2adf16973755a721acb36b6ea338cb06b26a77ef9d"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/full-upper-repair6-20261018/check": {
+      "source": {
+        "source_sha256": "646a33f6133c853db73ae0cc8242e6f2fa0afe9a19faa998e30cce5866256f51",
+        "agda_source_sha256": "646a33f6133c853db73ae0cc8242e6f2fa0afe9a19faa998e30cce5866256f51",
+        "source_files": 9,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 6,
+      "interface_pool_sha256": "39254f8493fbaef78a2ae815e49b5f7d6d22e65c12717b75e12aefa9a7680342"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/text-boxed-assembly6-20261018/check": {
+      "source": {
+        "source_sha256": "52b3efe2026bc3a71739997f36a9be5b9c520a12104d7857e42e98677e9e51a3",
+        "agda_source_sha256": "52b3efe2026bc3a71739997f36a9be5b9c520a12104d7857e42e98677e9e51a3",
+        "source_files": 4,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 1,
+      "interface_pool_sha256": "b7f5d18ecd353fb7337e7bd49b94fd57ab8bf5ad99f81cd63d628828b8475a46"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/text-parametric-assembly6-20261018/check": {
+      "source": {
+        "source_sha256": "af3409963ac7bd2651c3ee1b4fb2763f19065f8bdfc416812cd50687a267cd8c",
+        "agda_source_sha256": "af3409963ac7bd2651c3ee1b4fb2763f19065f8bdfc416812cd50687a267cd8c",
+        "source_files": 3,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 2,
+      "interface_pool_sha256": "882449d9bbd675da839caadd1014afebde27ef4abece65bc2a3a4f35f45c98df"
+    },
+    "/mnt/data/othello-agda-desktop-artifacts-20261018/text-upper-holdout6-20261018/check": {
+      "source": {
+        "source_sha256": "60e7bbe60d83c7a51e53153eadecdb0fe8587b1901ca0f40f004e8a563b6890d",
+        "agda_source_sha256": "60e7bbe60d83c7a51e53153eadecdb0fe8587b1901ca0f40f004e8a563b6890d",
+        "source_files": 3,
+        "revision": null,
+        "dirty": null
+      },
+      "interface_count": 2,
+      "interface_pool_sha256": "42fefe7d0c0d8084c8031ff8cafe3bb6ebbcbe3efe513db811894dd8581168fd"
+    }
+  },
+  "canonical_helper_aliases_to_frozen_copies": {
+    "/home/eapiova/projects/othello-agda-main/tools/final_problem2_ephemeral6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/final_problem2_ephemeral6.py",
+    "/home/eapiova/projects/othello-agda-main/tools/problem2_source_audit6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/problem2_source_audit6.py",
+    "/home/eapiova/projects/othello-agda-main/tools/assembly6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/assembly6.py",
+    "/home/eapiova/projects/othello-agda-main/tools/citation_diagnostic6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/citation_diagnostic6.py",
+    "/home/eapiova/projects/othello-agda-main/tools/completion_batch6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/completion_batch6.py",
+    "/home/eapiova/projects/othello-agda-main/tools/grouped_bridge_pilot6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/grouped_bridge_pilot6.py",
+    "/home/eapiova/projects/othello-agda-main/tools/provenance.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/provenance.py",
+    "/home/eapiova/projects/othello-agda-main/tools/run_job.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/run_job.py",
+    "/home/eapiova/projects/othello-agda-main/tools/study6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/study6.py",
+    "/home/eapiova/projects/othello-agda-main/tools/study_archive6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/study_archive6.py",
+    "/home/eapiova/projects/othello-agda-main/tools/study_row_archive_fs6.c": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/study_row_archive_fs6.c",
+    "/home/eapiova/projects/othello-agda-main/tools/ephemeral_body_cache6.py": "/mnt/data/othello-agda-desktop-artifacts-20261018/final-problem2-ephemeral6-20261019/control/ephemeral_body_cache6.py"
+  },
+  "compiler": {
+    "path": "/nix/store/xk75yxsl8rbkkq5g81xli5993k7h7xzh-Agda-2.9.0-bin/bin/agda",
+    "sha256": "c4c5dc2617e7bcb759f0a197b679480e4296d79ea0f78de430e8268b1a02b842"
+  },
+  "actual_flags": [
+    "--no-libraries",
+    "--safe",
+    "--without-K",
+    "--cubical-compatible",
+    "--save-metas",
+    "--profile=modules",
+    "+RTS",
+    "-M9000M",
+    "-c",
+    "-F1.2",
+    "-s",
+    "-RTS"
+  ],
+  "P1_tag": "tpp-mark-2026-problem1",
+  "P1_tag_object": "e734d4c3e8a783a5033f7510739d680943a26015",
+  "P1_source_sha256": {
+    "othello.agda-lib": "8d35b89b607ddcafbf4b73d9f47bc3cd85818b5c5a8e2ef187d22194d5103ab8",
+    "src/Everything.agda": "e4a3ec0773aadb7b024e0f69c42c519a8673562f53d427431ec62b4ecf4e6d11",
+    "src/Game/Certificate.agda": "95673890ea3d4fc17116652a025ad1222e9b386f825229707270f9b0a4c80879",
+    "src/Game/Core.agda": "585632382adeb11be10c2f9c0241f1bebff5b7004918a0bb0d86c940c7f9d4c5",
+    "src/Game/Player.agda": "df9a92d8f8c950e0319f1be3094313c69465836a9422a0145a0b993af5cf8b21",
+    "src/Game/Soundness.agda": "17d6b92bcf68a751c2cdba0c29cb0ad4ca52215efb6add0dc792840af02ff196",
+    "src/Othello/Board.agda": "7094b799221944c35437f4aad1e82d7748a27756a3d357938066a2806809dc0d",
+    "src/Othello/Correctness.agda": "2c2d5859183fa00b999ec7ede2ad0beed36b262aff6cc12bd2a25546c118b0d0",
+    "src/Othello/Counting.agda": "93b951d285aa0e1980f75b850a006e4f7246b02b48214236f9ba5ebd5a5a96db",
+    "src/Othello/Finite.agda": "b7c3dac2b5d9f79f9f50c25019b4ba353c739719a4232e3f875d7156597e8a50",
+    "src/Othello/Generated4.agda": "dac977d8ec8c763392979f42943cb74cafde5ef4f77c59c16ea60700fd5de4aa",
+    "src/Othello/Order.agda": "5f9968888e1d86652b6b20590a2e99943b58c7c5f225870d2a0b0cdfc61242f8",
+    "src/Othello/Proof4.agda": "2f6c3e932e5a0c775d0ec4d271630702ca5266debc128b7ed5992e861f84cdb5",
+    "src/Othello/Rules.agda": "66e2c42cfcb9ec1c36c78e9a7c5456d37841ce8d77dcce3074d2aa63bb5c46ef",
+    "src/Othello/Statements.agda": "a90097cad14684d24cac24bfdbce819dd3765e38dede634be22b75e4f8753708",
+    "src/Othello/Termination.agda": "1bdab9502a01be094d5e6bd16ae3565e1c8eca79de30b8b4e08dd07ae390d609",
+    "src/Othello/Value.agda": "731687fb22c3da800fd3f94429faa8bb4de8048aca8c8ea9cef5fb04ea9f232f",
+    "src/Prelude.agda": "393dc644aba9c6ab6e036baaa008f712dc11285fa4ade947a90f920c78f2fa5b",
+    "src/Tests/Certificates.agda": "62147234a80b5b7d39a638bd5dee753f7e7df6d6baac86ac34f45f48fc081c9f",
+    "src/Tests/DeepPerft.agda": "fed2057a821173cbb8845b63a9f70bafc1b1b3bb87e8be44fa0f2de221add0de",
+    "src/Tests/PerfectLine.agda": "8d19a56de576de507b9e516187596f0c80871d89e7fc303390d3dcb369ee9875",
+    "src/Tests/Perft.agda": "5bdfe6ea38df2f7d0471e8063fe7b087697fe99d96c8a24c7b572c5cbbbcca90",
+    "src/Tests/Rules.agda": "64583df0193123eac1f9ac8a892b863053c7e7462f59f95585bf20ba1b28d9c1"
+  },
+  "row_receipt_cohorts_verified": 334,
+  "accepted_row_receipts_verified": 667,
+  "row_receipts_are_not_charged_again": true,
+  "package_is_local_collection_not_standalone": true,
+  "independent_cold_rebuild_performed": false,
+  "AI_assistance_disclosed": true,
+  "no_publication_upload_email_commit_or_push": true
+}

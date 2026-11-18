@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://auto-res.github.io/tpp2026/en/tpp2026mark",
+      "title": "TPP 2026: TPPmark 2026",
+      "accessed": "2026-11-15",
+      "quotes": [
+        {
+          "text": "Deadline: The day before TPP 2026 (November 15, 2026)",
+          "added": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://auto-res.github.io/tpp2026/ja/tpp2026mark",
+      "title": "TPP-mark 2026 日本語",
+      "accessed": "2026-11-15"
+    }
+  ]
+}

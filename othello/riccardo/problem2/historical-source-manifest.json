@@ -1,0 +1,967 @@
+{
+  "format": "othello-private-selected-source-package-v1",
+  "finished_utc": "2026-10-18T19:17:17.652174+00:00",
+  "entrypoint": "Tests.CompleteUpperRows6.Result.initial6x6 : Problem2",
+  "core_archive": "/mnt/data/othello-agda-desktop-artifacts-20261018/private-core-package6-20261018/core-source.zip",
+  "core_archive_sha256": "8e50c0132e1e23813978340a73250cb9ecb709f926c4eca996e21f816126442f",
+  "core_archive_bytes": 382209,
+  "core_entries": {
+    "src/Othello/RowPacked6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/row-packed-probe6-20261018-fixed/check/src/Othello/RowPacked6.agda",
+      "entry": "src/Othello/RowPacked6.agda",
+      "sha256": "5884285f6c4b65948a67549e7498ebb2f2964e95532e1aa50a9398e738a2a1d4",
+      "size": 90630,
+      "mode": 33279,
+      "mtime_ns": 1792305927407389000
+    },
+    "src/Game/Composite.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Composite.agda",
+      "entry": "src/Game/Composite.agda",
+      "sha256": "997df1089e5a52fee8f3e4cebce303fbfeba6bdc12b8aa31377675d56d980255",
+      "size": 17285,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/BooleanSearch.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/BooleanSearch.agda",
+      "entry": "src/Game/BooleanSearch.agda",
+      "sha256": "2afa0b5ab1ce1a15c62b80c01fcbc26b2d2badb9dda92d3743645c7b9d4449fc",
+      "size": 4074,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Certificate.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Certificate.agda",
+      "entry": "src/Game/Certificate.agda",
+      "sha256": "95673890ea3d4fc17116652a025ad1222e9b386f825229707270f9b0a4c80879",
+      "size": 2665,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Core.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Core.agda",
+      "entry": "src/Game/Core.agda",
+      "sha256": "585632382adeb11be10c2f9c0241f1bebff5b7004918a0bb0d86c940c7f9d4c5",
+      "size": 7598,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Player.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Player.agda",
+      "entry": "src/Game/Player.agda",
+      "sha256": "df9a92d8f8c950e0319f1be3094313c69465836a9422a0145a0b993af5cf8b21",
+      "size": 377,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Prelude.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Prelude.agda",
+      "entry": "src/Prelude.agda",
+      "sha256": "393dc644aba9c6ab6e036baaa008f712dc11285fa4ade947a90f920c78f2fa5b",
+      "size": 1565,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Search.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Search.agda",
+      "entry": "src/Game/Search.agda",
+      "sha256": "bba8e8b0a61ee61728d6d973266f6c43e9221af4bf53bf9e34ff857b8b7873ab",
+      "size": 5824,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Soundness.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Soundness.agda",
+      "entry": "src/Game/Soundness.agda",
+      "sha256": "17d6b92bcf68a751c2cdba0c29cb0ad4ca52215efb6add0dc792840af02ff196",
+      "size": 5741,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Encode6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Encode6.agda",
+      "entry": "src/Othello/Encode6.agda",
+      "sha256": "166b52eae9307d9cbfbf7629e65f9b588bdac310ae7cd80e0e216b9d0f7c4685",
+      "size": 7399,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Finite.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Finite.agda",
+      "entry": "src/Othello/Finite.agda",
+      "sha256": "b7c3dac2b5d9f79f9f50c25019b4ba353c739719a4232e3f875d7156597e8a50",
+      "size": 2131,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Order.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Order.agda",
+      "entry": "src/Othello/Order.agda",
+      "sha256": "5f9968888e1d86652b6b20590a2e99943b58c7c5f225870d2a0b0cdfc61242f8",
+      "size": 1535,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Board.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Board.agda",
+      "entry": "src/Othello/Board.agda",
+      "sha256": "7094b799221944c35437f4aad1e82d7748a27756a3d357938066a2806809dc0d",
+      "size": 3074,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/NatMap.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/NatMap.agda",
+      "entry": "src/Game/NatMap.agda",
+      "sha256": "22607078565ff83051fff129b0108a196ca4bffea4761ad628bef0596ab42b8f",
+      "size": 763,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Balanced.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Balanced.agda",
+      "entry": "src/Game/Balanced.agda",
+      "sha256": "334aeb9c5a8a55c6416b28702a66f0219f3324b549711163118f127a8d3d84be",
+      "size": 8714,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Indexed.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Indexed.agda",
+      "entry": "src/Game/Indexed.agda",
+      "sha256": "5f5c9936a82c3fe22232719c164f05625f63ff1ca88c5f60d4636a47d6ee828b",
+      "size": 13460,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Symmetry.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Symmetry.agda",
+      "entry": "src/Game/Symmetry.agda",
+      "sha256": "0953313ccdb1d0194d7aa5b3e712e5fcd17e67996242f6367ac58a0f57ff8f9b",
+      "size": 1503,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/InlineEntries6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/inline-entries-probe6-20261018/check/src/Othello/InlineEntries6.agda",
+      "entry": "src/Othello/InlineEntries6.agda",
+      "sha256": "5d3c5a7b47b2f966bf817d622ecfac1f32ba8ba0df08f30b0873c2267598f2d4",
+      "size": 22730,
+      "mode": 33279,
+      "mtime_ns": 1792308974579216100
+    },
+    "src/Othello/Fast6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Fast6.agda",
+      "entry": "src/Othello/Fast6.agda",
+      "sha256": "246b0b73d97db74cdea5f5c5138a66b6276867651161d2983c7140451b26f8c4",
+      "size": 7219,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Rays6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Rays6.agda",
+      "entry": "src/Othello/Rays6.agda",
+      "sha256": "0787137541e46aca715cc65ab99b184f1c58367f98c9133fd73c377b5c016e50",
+      "size": 82948,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Rules.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Rules.agda",
+      "entry": "src/Othello/Rules.agda",
+      "sha256": "66e2c42cfcb9ec1c36c78e9a7c5456d37841ce8d77dcce3074d2aa63bb5c46ef",
+      "size": 5687,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/LengthMoves6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/length-rays-probe6-20261018/check/src/Othello/LengthMoves6.agda",
+      "entry": "src/Othello/LengthMoves6.agda",
+      "sha256": "95bc34b732a38f921f7d4c3b1d6f826c18da8f1f39150ddceea1bfd6718c370c",
+      "size": 19270,
+      "mode": 33279,
+      "mtime_ns": 1792308242258846000
+    },
+    "src/Game/DirectedIndexed.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/directed-move-probe6-20261018-fixed/check/src/Game/DirectedIndexed.agda",
+      "entry": "src/Game/DirectedIndexed.agda",
+      "sha256": "185763be40914a54cd24989c0c31eb28e1da1b14bbb776ab403dc39ae8fa4e3f",
+      "size": 14044,
+      "mode": 33279,
+      "mtime_ns": 1792303537338289600
+    },
+    "src/Othello/LengthRules6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/length-rays-probe6-20261018/check/src/Othello/LengthRules6.agda",
+      "entry": "src/Othello/LengthRules6.agda",
+      "sha256": "53fcfd7da109b304e30f0395cbe30a3b80babe546d48b286577e98d9ab8aafdf",
+      "size": 84018,
+      "mode": 33279,
+      "mtime_ns": 1792308242258727400
+    },
+    "src/Othello/LengthRays6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/length-rays-probe6-20261018/check/src/Othello/LengthRays6.agda",
+      "entry": "src/Othello/LengthRays6.agda",
+      "sha256": "6e7625147a0b86ddbb4316aa787c7c765ba5e23d9a30f2579781ecb1e69cfebb",
+      "size": 58739,
+      "mode": 33279,
+      "mtime_ns": 1792308242258552000
+    },
+    "src/Othello/CellRays6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/specialized-rule-probe6-20261018-fixed/check/src/Othello/CellRays6.agda",
+      "entry": "src/Othello/CellRays6.agda",
+      "sha256": "ec4a8823183c2d11fee5d4149d1a315244ad1019a15b60d65e7074479a9b8935",
+      "size": 2327,
+      "mode": 33279,
+      "mtime_ns": 1792303012720837900
+    },
+    "src/Othello/Specialized6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/specialized-rule-probe6-20261018-fixed/check/src/Othello/Specialized6.agda",
+      "entry": "src/Othello/Specialized6.agda",
+      "sha256": "a3ebf4b4f94b9a2c1e74d5e03774015270bc0a5184a0ffd5cba37439fe330d0f",
+      "size": 63655,
+      "mode": 33279,
+      "mtime_ns": 1792303012721941300
+    },
+    "src/Game/Transfer.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Transfer.agda",
+      "entry": "src/Game/Transfer.agda",
+      "sha256": "5bdb6c26bda5fa0ab2e227024258f03b7324301484cf1004421917742ec60def",
+      "size": 3274,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Incremental6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/incremental-rule-probe6-20261018/check/src/Othello/Incremental6.agda",
+      "entry": "src/Othello/Incremental6.agda",
+      "sha256": "706988ba75ede262a7eedb240a44ea351ca77fe07c26cb7faf920fe43080cc36",
+      "size": 5247,
+      "mode": 33279,
+      "mtime_ns": 1792298461636470200
+    },
+    "src/Othello/Symmetry6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Symmetry6.agda",
+      "entry": "src/Othello/Symmetry6.agda",
+      "sha256": "9adb7fd93e5eb6051aedf7cad7adaa4c1d30ac2e3b496b225376fb7eae3798c3",
+      "size": 7724,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/SymmetryGeometry6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/SymmetryGeometry6.agda",
+      "entry": "src/Othello/SymmetryGeometry6.agda",
+      "sha256": "eb05e4f27f4cafd8eb0c6e4c03cdb7256f73c860e3ae75c82a7a8887fb2eeb1e",
+      "size": 33724,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/EncodedStepAssembly.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/encoded-step-assembly-probe6-20261018/check/src/Game/EncodedStepAssembly.agda",
+      "entry": "src/Game/EncodedStepAssembly.agda",
+      "sha256": "ea1083785428f2db44ef497e8b57e20aae4c65f841e9d4c57cc478a4c7d893be",
+      "size": 1990,
+      "mode": 33279,
+      "mtime_ns": 1792317080543694900
+    },
+    "src/Game/NatMapLaws.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/NatMapLaws.agda",
+      "entry": "src/Game/NatMapLaws.agda",
+      "sha256": "03d851b121557b787ffe4a192dfafc3fe0fed526974e2163a1604de232838067",
+      "size": 8923,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/StepAssembly.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/encoded-step-assembly-probe6-20261018/check/src/Game/StepAssembly.agda",
+      "entry": "src/Game/StepAssembly.agda",
+      "sha256": "72906743e56c21b1cf68327e49e03dc8536f5628c5defa60213e57bf21bf653e",
+      "size": 3083,
+      "mode": 33279,
+      "mtime_ns": 1792315855451628500
+    },
+    "src/Game/NatAccessibility.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/encoded-step-assembly-probe6-20261018/check/src/Game/NatAccessibility.agda",
+      "entry": "src/Game/NatAccessibility.agda",
+      "sha256": "4ef3c958360061ae6130f77b94d71f23ffad5c3fab4b9b68ce01147a04d4fa96",
+      "size": 795,
+      "mode": 33279,
+      "mtime_ns": 1792118249710734600
+    },
+    "src/Game/NatOrder.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/NatOrder.agda",
+      "entry": "src/Game/NatOrder.agda",
+      "sha256": "92e8ec3ca496acf4d7c8e044ea410adab81af0a955019d20993341d4e7932cf7",
+      "size": 1230,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/StepRangeAssembly.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/range-upper-probe6-20261018/check/src/Game/StepRangeAssembly.agda",
+      "entry": "src/Game/StepRangeAssembly.agda",
+      "sha256": "a7985be7b807720c6c420b24f86a8b436e1c8094c80db89402e27c830095e2ff",
+      "size": 5817,
+      "mode": 33279,
+      "mtime_ns": 1792331938100556200
+    },
+    "src/Othello/Statements.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Statements.agda",
+      "entry": "src/Othello/Statements.agda",
+      "sha256": "a90097cad14684d24cac24bfdbce819dd3765e38dede634be22b75e4f8753708",
+      "size": 2315,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/UnicodeCompact6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/unicode-codec-probe6-20261018/check/src/Othello/UnicodeCompact6.agda",
+      "entry": "src/Othello/UnicodeCompact6.agda",
+      "sha256": "e705777f9a01028a7beb2f2aab3c21e1a0635228ede9a1c31a94498005c57014",
+      "size": 7862,
+      "mode": 33279,
+      "mtime_ns": 1792308796992741300
+    },
+    "src/Othello/ConsecutivePackedRows6.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/consecutive-global-probe6-20261018/check/src/Othello/ConsecutivePackedRows6.agda",
+      "entry": "src/Othello/ConsecutivePackedRows6.agda",
+      "sha256": "e10f306b6f1cfb6b924764c18788d10b182d188f0806f331cfd10dd41e58d90f",
+      "size": 3501,
+      "mode": 33279,
+      "mtime_ns": 1792330989014836700
+    },
+    "src/Othello/InlineRows6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/inline-entries-probe6-20261018/check/src/Othello/InlineRows6.agda",
+      "entry": "src/Othello/InlineRows6.agda",
+      "sha256": "e8a0d6d4647d5d3cf44dc2c2069db5bd52df7abf1c94f49faed42bba06dd027c",
+      "size": 2708,
+      "mode": 33279,
+      "mtime_ns": 1792308974579275700
+    },
+    "src/Othello/AgreedIndexed6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/specialized-rule-probe6-20261018-fixed/check/src/Othello/AgreedIndexed6.agda",
+      "entry": "src/Othello/AgreedIndexed6.agda",
+      "sha256": "14b961caf8a7427998bddaa7f055d1fffa741ba5f6c4b17274f63c6e7e9ba998",
+      "size": 4323,
+      "mode": 33279,
+      "mtime_ns": 1792303012722012100
+    },
+    "src/Othello/CompatibleRows6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/packed-nat-probe6-20261018-split/check/src/Othello/CompatibleRows6.agda",
+      "entry": "src/Othello/CompatibleRows6.agda",
+      "sha256": "6f76d0a2abe8be832921067234c4b88944d1d1a76231f5e69fb38022c8f07680",
+      "size": 3224,
+      "mode": 33279,
+      "mtime_ns": 1792301115734282700
+    },
+    "src/Othello/LazyIndexed6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/LazyIndexed6.agda",
+      "entry": "src/Othello/LazyIndexed6.agda",
+      "sha256": "cbb7f96b01b7ebbae79e47902861460a676c7550bbe71cf48dde005f504e404d",
+      "size": 5105,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/NatAssembly6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/NatAssembly6.agda",
+      "entry": "src/Othello/NatAssembly6.agda",
+      "sha256": "a2a7058c19bcc689f820938a5d7898b7c16c66417f5dd8126c81368dffdd393d",
+      "size": 5030,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/NatIndexed6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/NatIndexed6.agda",
+      "entry": "src/Othello/NatIndexed6.agda",
+      "sha256": "45345b2e29188cfc2d072127e06bb03616bcb96598106efbd353efadc7367b0e",
+      "size": 9395,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Indexed6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Indexed6.agda",
+      "entry": "src/Othello/Indexed6.agda",
+      "sha256": "9d91ac59047c7b1d1b28af4b26988cc9bb0588c8d1da5fd17860b0e09614e9b9",
+      "size": 10708,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/CompactShared6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/CompactShared6.agda",
+      "entry": "src/Othello/CompactShared6.agda",
+      "sha256": "f35294fc75d50c32ae09c5c412adbaeb41afe52ac6dcfc61e40dc80725c6c42a",
+      "size": 8017,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Shared.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Shared.agda",
+      "entry": "src/Game/Shared.agda",
+      "sha256": "fb3d9d1473cbd0c860e0ffb8fc8373d38d492d8471448c64c5c0d66ad2966b4c",
+      "size": 35236,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/IndexedTransfer.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/fused-row-probe6-20261018/check/src/Game/IndexedTransfer.agda",
+      "entry": "src/Game/IndexedTransfer.agda",
+      "sha256": "17817b2e7cc506d70f1866ddf71e4e6063f42c76d4da9ae380e4df33cd692a9b",
+      "size": 4935,
+      "mode": 33279,
+      "mtime_ns": 1792301610780611800
+    },
+    "src/Game/EncodedResolver.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/row-packed-probe6-20261018-fixed/check/src/Game/EncodedResolver.agda",
+      "entry": "src/Game/EncodedResolver.agda",
+      "sha256": "c432e0ec8320bb4f40925473c927b242776b93601221b6f303639b35b9ad5de1",
+      "size": 7317,
+      "mode": 33279,
+      "mtime_ns": 1792305927407497600
+    },
+    "src/Othello/DirectSymmetry6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/direct-symmetry-probe6-20261018/check/src/Othello/DirectSymmetry6.agda",
+      "entry": "src/Othello/DirectSymmetry6.agda",
+      "sha256": "03ef81e636c2569234e36add44f2932c41628d9c743f56d482849fea81cbfa51",
+      "size": 13473,
+      "mode": 33279,
+      "mtime_ns": 1792303694013356500
+    },
+    "src/Othello/SharedSymmetry6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/SharedSymmetry6.agda",
+      "entry": "src/Othello/SharedSymmetry6.agda",
+      "sha256": "acb9a93eac341359b3d2640813b9c290b55f3ceec7bd33457091ddeeebf6fd26",
+      "size": 3033,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/SymmetryEnumeration6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/SymmetryEnumeration6.agda",
+      "entry": "src/Othello/SymmetryEnumeration6.agda",
+      "sha256": "81ebc29fcfc47e5fc3d6c8fffc31af5fd797d7f94ff5e33f104cc9e10d476d13",
+      "size": 15360,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/Counting.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/Counting.agda",
+      "entry": "src/Othello/Counting.agda",
+      "sha256": "93b951d285aa0e1980f75b850a006e4f7246b02b48214236f9ba5ebd5a5a96db",
+      "size": 3620,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/SymmetryRules6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Othello/SymmetryRules6.agda",
+      "entry": "src/Othello/SymmetryRules6.agda",
+      "sha256": "c5b78eb814d0121650cf997e2b0287462956046dc913b2f36d0551ead2c3c6d0",
+      "size": 16869,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/Permutation.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/Permutation.agda",
+      "entry": "src/Game/Permutation.agda",
+      "sha256": "61b6004917ddb036a06c135e872ead044b7d3df15ce33307165985476a719f6f",
+      "size": 1979,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Game/CertificateTransport.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda/runs/six-initial-lower-global-named-resume-20261012/results/initial-lower-global-named6/check/src/Game/CertificateTransport.agda",
+      "entry": "src/Game/CertificateTransport.agda",
+      "sha256": "ada17a883a629225821ca4900333376f2edd042f4f99814a1360f6e9ada8370e",
+      "size": 8450,
+      "mode": 33188,
+      "mtime_ns": 0
+    },
+    "src/Othello/TextCertifiedAssembly6.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/text-boxed-assembly6-20261018/check/src/Othello/TextCertifiedAssembly6.agda",
+      "entry": "src/Othello/TextCertifiedAssembly6.agda",
+      "sha256": "45d238b96ff8831b2bf86eb25700b06aae7da6469e7a9f40bf6361cb0e99c6f4",
+      "size": 1780,
+      "mode": 33279,
+      "mtime_ns": 1792338240223625600
+    },
+    "src/Tests/TextUpperHoldout6/Rows500.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/text-upper-holdout6-20261018/check/src/Tests/TextUpperHoldout6/Rows500.agda",
+      "entry": "src/Tests/TextUpperHoldout6/Rows500.agda",
+      "sha256": "141750d4eb3501a642a9e191be9c776440a03d4606fd92512a62e9b53bec6cb7",
+      "size": 1424,
+      "mode": 33279,
+      "mtime_ns": 1792342346614137600
+    },
+    "src/Tests/TextUpperHoldout6/Body500.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/text-upper-holdout6-20261018/check/src/Tests/TextUpperHoldout6/Body500.agda",
+      "entry": "src/Tests/TextUpperHoldout6/Body500.agda",
+      "sha256": "2705145b52db45bf233ccd4abbcbbd660fcfe7901a62fd711d3e5f02d9ea00a7",
+      "size": 607242,
+      "mode": 33279,
+      "mtime_ns": 1792342346614066500
+    },
+    "src/Othello/ConsecutivePackedUpper6.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/range-upper-probe6-20261018/check/src/Othello/ConsecutivePackedUpper6.agda",
+      "entry": "src/Othello/ConsecutivePackedUpper6.agda",
+      "sha256": "a4479ac64f25956df38427081eda39ba07d825fb2bd08159f34580c0d422a2b4",
+      "size": 3502,
+      "mode": 33279,
+      "mtime_ns": 1792332262851761300
+    },
+    "src/Tests/ParametricFullUpper6/Samples.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/text-parametric-assembly6-20261018/check/src/Tests/ParametricFullUpper6/Samples.agda",
+      "entry": "src/Tests/ParametricFullUpper6/Samples.agda",
+      "sha256": "6a9219760527aa5d19c99f0589f88c20475ec949678f780e783e1e83d7665875",
+      "size": 836,
+      "mode": 33279,
+      "mtime_ns": 1792338536496370100
+    },
+    "src/Tests/ParametricFullUpper6/Assembly.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/text-parametric-assembly6-20261018/check/src/Tests/ParametricFullUpper6/Assembly.agda",
+      "entry": "src/Tests/ParametricFullUpper6/Assembly.agda",
+      "sha256": "55e492683dfbb8d9c74e20db0c8e5823f148d9c1863f3d0323db234666b65654",
+      "size": 266761,
+      "mode": 33279,
+      "mtime_ns": 1792338536496295100
+    },
+    "src/Tests/InlineUpperPrefixes6/Closed.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/prefix-inline-probe6-20261018/check/src/Tests/InlineUpperPrefixes6/Closed.agda",
+      "entry": "src/Tests/InlineUpperPrefixes6/Closed.agda",
+      "sha256": "5cf88d7aeebe813fc135eeedcd9959802c89c7d8cd3ea8822d76e69b1a06feb9",
+      "size": 7327,
+      "mode": 33279,
+      "mtime_ns": 1792334159988332600
+    },
+    "src/Tests/InlineUpperPrefixes6/Data.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/prefix-inline-probe6-20261018/check/src/Tests/InlineUpperPrefixes6/Data.agda",
+      "entry": "src/Tests/InlineUpperPrefixes6/Data.agda",
+      "sha256": "618deb997804d45369a68a72d17b491a1deceb6699867b79faf344cb533ea462",
+      "size": 68641,
+      "mode": 33279,
+      "mtime_ns": 1792334159988270400
+    },
+    "src/Othello/PackedStatesText6.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/compact-global-probe6-20261018/check/src/Othello/PackedStatesText6.agda",
+      "entry": "src/Othello/PackedStatesText6.agda",
+      "sha256": "971e39a0c21de54b6dbfd4cdc2d4fa4940c8ca05a58660f17b00819a7a5de612",
+      "size": 1160,
+      "mode": 33279,
+      "mtime_ns": 1792330582478506500
+    },
+    "src/Othello/SpliceLine6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/path-splice-probe6-20261018-fixed/check/src/Othello/SpliceLine6.agda",
+      "entry": "src/Othello/SpliceLine6.agda",
+      "sha256": "b0a81d6ad6481fbc850ac781bfec21155b5892bbadc60f1f58e66016f256af84",
+      "size": 8330,
+      "mode": 33279,
+      "mtime_ns": 1792314551255093400
+    },
+    "src/Othello/PathSplice6.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/path-splice-probe6-20261018-fixed/check/src/Othello/PathSplice6.agda",
+      "entry": "src/Othello/PathSplice6.agda",
+      "sha256": "bac5d1e19e10aeef3ef4e762a59024d21eb43d7025f3668dd1afc67e9f0f29f7",
+      "size": 1522,
+      "mode": 33279,
+      "mtime_ns": 1792314551255133700
+    },
+    "src/Game/PathSplice.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/path-splice-probe6-20261018-fixed/check/src/Game/PathSplice.agda",
+      "entry": "src/Game/PathSplice.agda",
+      "sha256": "da23d44da3230122188f8223d808153454b36a2773e17da122f07ae69bdcb1e0",
+      "size": 2261,
+      "mode": 33279,
+      "mtime_ns": 1792314302721324200
+    },
+    "src/Game/StrategySplice.agda": {
+      "provider": "core",
+      "source": "/home/eapiova/projects/othello-agda-main/results/path-splice-probe6-20261018-fixed/check/src/Game/StrategySplice.agda",
+      "entry": "src/Game/StrategySplice.agda",
+      "sha256": "958532a11c0f5a836763199e386283f9d910fa7344d4cb06dac7ace0dc451e76",
+      "size": 4182,
+      "mode": 33279,
+      "mtime_ns": 1792314190834296100
+    },
+    "src/Othello/InlinePrefix6.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/prefix-inline-probe6-20261018/check/src/Othello/InlinePrefix6.agda",
+      "entry": "src/Othello/InlinePrefix6.agda",
+      "sha256": "adce16da9e66cd95e0c46e0227c8bc503564c282f248ef456c907425a19f0a96",
+      "size": 2013,
+      "mode": 33279,
+      "mtime_ns": 1792333900591113800
+    },
+    "src/Othello/FullUpperAlign6.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/full-upper-repair6-20261018/check/src/Othello/FullUpperAlign6.agda",
+      "entry": "src/Othello/FullUpperAlign6.agda",
+      "sha256": "bd77ea9b74d738915e8c18891edbef2f1943e79127fd2dd5975c900f3ce975d5",
+      "size": 2456,
+      "mode": 33279,
+      "mtime_ns": 1792336433467886600
+    },
+    "src/Tests/InlineLowerPrefixes6/Closed.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/lower-prefix-inline-probe6-20261018/check/src/Tests/InlineLowerPrefixes6/Closed.agda",
+      "entry": "src/Tests/InlineLowerPrefixes6/Closed.agda",
+      "sha256": "1d97495c4c23ecc5958f8011ccac3446763dce55e43cc923187176a1f0ce8231",
+      "size": 7327,
+      "mode": 33279,
+      "mtime_ns": 1792334334901842400
+    },
+    "src/Tests/InlineLowerPrefixes6/Data.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/lower-prefix-inline-probe6-20261018/check/src/Tests/InlineLowerPrefixes6/Data.agda",
+      "entry": "src/Tests/InlineLowerPrefixes6/Data.agda",
+      "sha256": "e1d7eef64b720498e7682537f8a678f028f28985caecd19a0688e64179baf933",
+      "size": 74402,
+      "mode": 33279,
+      "mtime_ns": 1792334334901771400
+    },
+    "src/Tests/InlineLowerPrefixes6/Joint.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/lower-prefix-inline-probe6-20261018/check/src/Tests/InlineLowerPrefixes6/Joint.agda",
+      "entry": "src/Tests/InlineLowerPrefixes6/Joint.agda",
+      "sha256": "cd5603b5487c90a8008091eb584602eef1e04238d717945d40f691cbc285be93",
+      "size": 3365,
+      "mode": 33279,
+      "mtime_ns": 1792334334901884500
+    },
+    "src/Othello/SpliceSuffix21.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix21-probe6-20261018/check/src/Othello/SpliceSuffix21.agda",
+      "entry": "src/Othello/SpliceSuffix21.agda",
+      "sha256": "baa244e5806df09cd30828a19750e62e70279256593c47760f451ad88e32cf14",
+      "size": 2077,
+      "mode": 33279,
+      "mtime_ns": 1792327497107739000
+    },
+    "src/Othello/SpliceSuffix6/State25.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix20-probe6-20261018/check/src/Othello/SpliceSuffix6/State25.agda",
+      "entry": "src/Othello/SpliceSuffix6/State25.agda",
+      "sha256": "e73681b7fc3b46391e381e5a157767776ec8525eee108c501aa725a48184769c",
+      "size": 1283,
+      "mode": 33279,
+      "mtime_ns": 1792327193773681900
+    },
+    "src/Othello/SpliceSuffix6/State24.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix20-probe6-20261018/check/src/Othello/SpliceSuffix6/State24.agda",
+      "entry": "src/Othello/SpliceSuffix6/State24.agda",
+      "sha256": "a8330c4f50def5e36a1365d9124f727fa833850157d5b608c0aa151359da475d",
+      "size": 1283,
+      "mode": 33279,
+      "mtime_ns": 1792327193773666500
+    },
+    "src/Othello/SpliceSuffix6/State23.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix20-probe6-20261018/check/src/Othello/SpliceSuffix6/State23.agda",
+      "entry": "src/Othello/SpliceSuffix6/State23.agda",
+      "sha256": "c6373f072a8dd155888110c2c1f3741790de3b711e371f250130729fa75afd80",
+      "size": 1283,
+      "mode": 33279,
+      "mtime_ns": 1792327193773648700
+    },
+    "src/Othello/SpliceSuffix6/State22.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix20-probe6-20261018/check/src/Othello/SpliceSuffix6/State22.agda",
+      "entry": "src/Othello/SpliceSuffix6/State22.agda",
+      "sha256": "9de41b55af9ee46aa25394c847581bd9a38ba6ae835812875b862a134e75f01f",
+      "size": 1283,
+      "mode": 33279,
+      "mtime_ns": 1792327193773630700
+    },
+    "src/Othello/SpliceSuffix6/State21.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix20-probe6-20261018/check/src/Othello/SpliceSuffix6/State21.agda",
+      "entry": "src/Othello/SpliceSuffix6/State21.agda",
+      "sha256": "f7d5ce329cc964b4789bca9016e7f23e8514e1378f54264c4653b598917f8375",
+      "size": 1283,
+      "mode": 33279,
+      "mtime_ns": 1792327193773609200
+    },
+    "src/Othello/SpliceSuffix6.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6.agda",
+      "entry": "src/Othello/SpliceSuffix6.agda",
+      "sha256": "8d5c0c48a25fd3c10dd390682ac45361a619e0fe207c488941470ecca0cc3549",
+      "size": 1605,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "src/Othello/SpliceSuffix6/State33.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6/State33.agda",
+      "entry": "src/Othello/SpliceSuffix6/State33.agda",
+      "sha256": "c41fbf6f73493fdff22b55b445fe4847ec3c8876c5a5594002ffa1ee5f2a9a1a",
+      "size": 1277,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "src/Othello/SpliceSuffix6/State32.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6/State32.agda",
+      "entry": "src/Othello/SpliceSuffix6/State32.agda",
+      "sha256": "9ad1df07fe197c2ea4689e6fb2610c69ed9a8c0036267b6dc0cc32731df5eded",
+      "size": 1277,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "src/Othello/SpliceSuffix6/State31.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6/State31.agda",
+      "entry": "src/Othello/SpliceSuffix6/State31.agda",
+      "sha256": "e9a1352f9e78ea821ccf1dd5db808fe84bd87a07edacce52462829fb675c73f4",
+      "size": 1277,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "src/Othello/SpliceSuffix6/State30.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6/State30.agda",
+      "entry": "src/Othello/SpliceSuffix6/State30.agda",
+      "sha256": "49759c72108c3afe1a4066d7f29e634894ad553599c09c192afb3f2e125f52f3",
+      "size": 1277,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "src/Othello/SpliceSuffix6/State29.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6/State29.agda",
+      "entry": "src/Othello/SpliceSuffix6/State29.agda",
+      "sha256": "2e149ddbd55a644214730595355aa2a99999c8e20c7e07396dd1016673a88606",
+      "size": 1277,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "src/Othello/SpliceSuffix6/State28.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6/State28.agda",
+      "entry": "src/Othello/SpliceSuffix6/State28.agda",
+      "sha256": "6a651cd16d65c681b53948e90516028aea6a839bc7800edda5f2a633491d9d9a",
+      "size": 1283,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "src/Othello/SpliceSuffix6/State27.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6/State27.agda",
+      "entry": "src/Othello/SpliceSuffix6/State27.agda",
+      "sha256": "e3f759c7eb2e8c3ae3b3ad896334a5f44621b1d48ee96903bd0e5e459b2bdba9",
+      "size": 1283,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "src/Othello/SpliceSuffix6/State26.agda": {
+      "provider": "core",
+      "source": "/mnt/data/othello-agda-desktop-artifacts-20261018/splice-suffix-probe6-20261018/check/src/Othello/SpliceSuffix6/State26.agda",
+      "entry": "src/Othello/SpliceSuffix6/State26.agda",
+      "sha256": "648e7d673982e2a5b01016d389729cd9dd4fbb7b7a2c920caee39187865ea706",
+      "size": 1283,
+      "mode": 33279,
+      "mtime_ns": 1792326777210648000
+    },
+    "othello.agda-lib": {
+      "source": "/home/eapiova/projects/othello-agda-main/othello.agda-lib",
+      "sha256": "8d35b89b607ddcafbf4b73d9f47bc3cd85818b5c5a8e2ef187d22194d5103ab8",
+      "size": 79,
+      "mode": 33188,
+      "mtime_ns": 1791168477784586738
+    }
+  },
+  "selected_module_count": 4128,
+  "source_graph": "/mnt/data/othello-agda-desktop-artifacts-20261018/private-core-package6-20261018/source-graph.json.zst",
+  "source_graph_sha256": "3f2ac5990824b4f72c4c7d1eb30de144616b35ef003efac4eaff965944d04a06",
+  "source_graph_decoded_sha256": "6bb569a3ef810b212e96dfa6091b6bf57ecae4b47998481e7305248d2cc736fb",
+  "builtin_modules_from_pinned_Agda": [
+    "Agda.Builtin.Bool",
+    "Agda.Builtin.Char",
+    "Agda.Builtin.Equality",
+    "Agda.Builtin.Int",
+    "Agda.Builtin.List",
+    "Agda.Builtin.Maybe",
+    "Agda.Builtin.Nat",
+    "Agda.Builtin.Sigma",
+    "Agda.Builtin.String",
+    "Agda.Builtin.Unit",
+    "Agda.Primitive"
+  ],
+  "large_archive_references": {
+    "upper-cache": {
+      "format": "othello-current-text-upper-cache-v1",
+      "recorded_utc": "2026-10-18T16:16:50.392004+00:00",
+      "original_source": "/mnt/data/othello-agda-desktop-artifacts-20261018/text-upper-probe6-20261018-fixed/check",
+      "archive": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-upper-cache6-20261018/cache.zip",
+      "archive_sha256": "f2cfa29e1279924fa71aa1e927ac59a7bc09fb58ff7c8c46392a1c1ba1c573b0",
+      "manifest": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-upper-cache6-20261018/archive-manifest.json",
+      "source_sha256": "c8dd91a3cc4963416caa0ec3dbc39387806d2093e9d5ed2fd1c417867f71e036",
+      "interface_pool_sha256": "8fb429f41fe4d654275ccadabfbd947f8cc3b3153abfe8e6ced1f97cf9de367d",
+      "accepted_interfaces": 664,
+      "filesystem_binary": "/mnt/data/othello-agda-desktop-artifacts-20261018/global-archive-probe6-20261018/archive-fs",
+      "read_only_view_replay_accepted": true,
+      "plaintext_retirement_started": true,
+      "mathematical_objective_complete": false,
+      "plaintext_retirement_complete": true,
+      "plaintext_retirement_completed_utc": "2026-10-18T16:17:07.168033+00:00",
+      "archive_view_replay_accepted": true,
+      "last_joint_replay_receipt": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-upper-cache6-20261018/closure.json",
+      "parent_cache_manifest": "/mnt/data/othello-agda-desktop-artifacts-20261018/sealed-text-cache6-20261018/archive-manifest.json",
+      "payload_lineage": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-upper-cache6-20261018/payload-lineage.json",
+      "proof_interfaces_byte_exact": true,
+      "source_bytes_byte_exact": true,
+      "table_interface_payloads_byte_exact": true,
+      "original_compressed_table_frames_not_claimed_identical": true,
+      "archive_bytes": 91931780
+    },
+    "upper-sources": {
+      "format": "othello-complete-row-source-preparation-closure-v1",
+      "closed_utc": "2026-10-18T18:25:39.480506+00:00",
+      "accepted": true,
+      "bound": "upper",
+      "report": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-upper-row-sources6-20261018/report.json",
+      "manifest": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-upper-row-sources6-20261018/archive-manifest.json",
+      "archive": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-upper-row-sources6-20261018/row-sources.zip",
+      "archive_sha256": "b612b4605f94c347641af72ffa7486f93e4cc05599d086e6752813882a825fc4",
+      "archive_bytes": 104119064,
+      "emitted_groups": 651,
+      "emitted_owner_rows": 6500011,
+      "emitted_tokens": 80262245,
+      "charged_cpu_seconds": 809.293547,
+      "previous_combined_scope_cpu_seconds": 2133.9566879999998,
+      "new_controller_allowance_seconds": 10,
+      "combined_scope_cpu_seconds": 2953.2502349999995,
+      "scope_cap_cpu_seconds": 6000,
+      "new_game_row_checks": 0,
+      "source_values_not_yet_Agda_checked": true,
+      "p1_unchanged": true,
+      "production_go": false,
+      "mathematical_objective_complete": false
+    },
+    "lower-cache": {
+      "format": "othello-current-text-lower-cache-v1",
+      "recorded_utc": "2026-10-18T16:34:44.274023+00:00",
+      "original_source": "/mnt/data/othello-agda-desktop-artifacts-20261018/text-lower-probe6-20261018/check",
+      "archive": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-lower-cache6-20261018/cache.zip",
+      "archive_sha256": "7dd5ea0d15b9ba5766f4ae738702dfb5708c5a1a056500e29f56df26a370cdf7",
+      "manifest": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-lower-cache6-20261018/archive-manifest.json",
+      "source_sha256": "3d700bde6163757e0daae492304b81915cd71cc27645e67f3e1ec47c2b3b31cc",
+      "interface_pool_sha256": "918ff9760d27fe1d13a09f3534312baa79adb2355293f103957694a5c7e264e9",
+      "accepted_interfaces": 698,
+      "plaintext_retirement_complete": true,
+      "archive_view_entries_verified": true,
+      "archive_view_replay_accepted": true,
+      "filesystem_binary": "/mnt/data/othello-agda-desktop-artifacts-20261018/global-archive-probe6-20261018/archive-fs",
+      "mathematical_objective_complete": false,
+      "replay_receipt": "/mnt/data/othello-agda-desktop-artifacts-20261018/lower-cache-replay6-20261018/closure.json",
+      "replay_heap_mib": 4500,
+      "last_joint_replay_receipt": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-lower-cache6-20261018/closure.json",
+      "parent_cache_manifest": "/mnt/data/othello-agda-desktop-artifacts-20261018/lower-cache-archive6-20261018/archive-manifest.json",
+      "payload_lineage": "/mnt/data/othello-agda-desktop-artifacts-20261018/packed-lower-cache6-20261018/payload-lineage.json",
+      "proof_interfaces_byte_exact": true,
+      "source_bytes_byte_exact": true,
+      "table_interface_payloads_byte_exact": true,
+      "original_compressed_table_frames_not_claimed_identical": true,
+      "archive_bytes": 97645857
+    },
+    "lower-sources": {
+      "format": "othello-complete-row-source-preparation-recovered-closure-v1",
+      "closed_utc": "2026-10-18T18:45:00.173975+00:00",
+      "accepted": true,
+      "bound": "lower",
+      "report": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-lower-row-sources-recovery6-20261018/report.json",
+      "manifest": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-lower-row-sources-recovery6-20261018/archive-manifest.json",
+      "archive": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-lower-row-sources6-20261018/row-sources.zip",
+      "archive_sha256": "e92bf08fbe08c1c031f76ad74339b2898a65e1fa362b8e94b9ce4f9d722a513b",
+      "archive_bytes": 111009620,
+      "emitted_groups": 686,
+      "emitted_owner_rows": 6853047,
+      "emitted_tokens": 88263404,
+      "reused_group_count": 642,
+      "reused_source_bytes_preserved": true,
+      "original_interrupted_job_closure": "/mnt/data/othello-agda-desktop-artifacts-20261018/complete-lower-row-sources6-20261018/closure.json",
+      "original_failed_cpu_preserved": true,
+      "charged_cpu_seconds": 123.344896,
+      "previous_combined_scope_cpu_seconds": 3730.0648419999998,
+      "new_controller_allowance_seconds": 10,
+      "combined_scope_cpu_seconds": 3863.409738,
+      "scope_cap_cpu_seconds": 6000,
+      "new_game_row_checks": 0,
+      "source_values_not_yet_Agda_checked": true,
+      "p1_unchanged": true,
+      "production_go": false,
+      "mathematical_objective_complete": false
+    }
+  },
+  "source_resolution_order_preserved": true,
+  "all_selected_source_bytes_modes_ns_mtimes_preserved": true,
+  "original_desktop_runs_and_NAMOR_untouched": true,
+  "p1_unchanged": true,
+  "package_source_integrity_verified": true,
+  "package_build_not_yet_checked": true,
+  "complete_initial_theorem_not_yet_checked": true,
+  "mathematical_objective_complete": false
+}
