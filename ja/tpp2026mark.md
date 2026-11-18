@@ -73,16 +73,15 @@ Artificial Intelligence 6(4), 293–326, 1975.
 
 ## 解答者
 - 中野圭介
-  [https://github.com/ksk/tppmark2026-othello](https://github.com/ksk/tppmark2026-othello)
+  [solution](https://github.com/ksk/tppmark2026-othello)
 
 - 池渕未来
-  please use [ZFCert](https://github.com/mir-ikbch/zfcert)
+  [solution](https://github.com/auto-res/tpp2026/tree/main/othello/ikebuchi) by [ZFCert](https://github.com/mir-ikbch/zfcert)
 
 - Riccardo Borsetto
-  
-  Please begin with writeup.pdf and README.md.
+  [solution](https://github.com/auto-res/tpp2026/tree/main/othello/riccardo)
 
 - 石井大海
-  (private communication)
+  by Praxis
 
 [TPP 2026 日本語案内に戻る]({{ '/ja/' | relative_url }}) / [English version]({{ '/en/tpp2026mark/' | relative_url }})

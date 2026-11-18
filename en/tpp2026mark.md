@@ -74,16 +74,15 @@ Artificial Intelligence 6(4), 293–326, 1975.
 ## Solvers
 
 - Keisuke Nakano
-  [https://github.com/ksk/tppmark2026-othello](https://github.com/ksk/tppmark2026-othello)
+  [solution](https://github.com/ksk/tppmark2026-othello)
 
 - Mirai Ikebuchi
-  please use [ZFCert](https://github.com/mir-ikbch/zfcert)
+  [solution](https://github.com/auto-res/tpp2026/tree/main/othello/ikebuchi) by [ZFCert](https://github.com/mir-ikbch/zfcert)
 
 - Riccardo Borsetto
-  
-  Please begin with writeup.pdf and README.md.
+  [solution](https://github.com/auto-res/tpp2026/tree/main/othello/riccardo)
 
 - Hiromi Ishii
-  (private communication)
+  by Praxis
 
 [Back to the TPP 2026 English page]({{ '/en/' | relative_url }}) / [日本語版]({{ '/ja/tpp2026mark/' | relative_url }})
