@@ -71,4 +71,18 @@ Ph.D. thesis, University of Limburg, Maastricht, 1994.
 Artificial Intelligence 6(4), 293–326, 1975.
 — 問題3を中心に、大規模探索を形式化する際の基礎文献。
 
+## 解答者
+- 中野圭介
+  [https://github.com/ksk/tppmark2026-othello](https://github.com/ksk/tppmark2026-othello)
+
+- 池渕未来
+  please use [ZFCert](https://github.com/mir-ikbch/zfcert)
+
+- Riccardo Borsetto
+  
+  Please begin with writeup.pdf and README.md.
+
+- 石井大海
+  (private communication)
+
 [TPP 2026 日本語案内に戻る]({{ '/ja/' | relative_url }}) / [English version]({{ '/en/tpp2026mark/' | relative_url }})

@@ -17,6 +17,8 @@ TPP is held every year since 2005, and provides a forum to exchange ideas for bo
 
 ## Updates
 
+- **November 18, 2026:** Published the TPP mark solvers. Thank you for attendance!
+- **November 16, 2026:** Updated the program.
 - **November 4, 2026:** Published the program (subject to change).
 - **October 3, 2026:** Updated the invited talk information.
 - **September 24, 2026:** Published [TPP-mark 2026]({{ '/en/tpp2026mark/' | relative_url }}).

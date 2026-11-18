@@ -71,4 +71,19 @@ Ph.D. thesis, University of Limburg, Maastricht, 1994.
 Artificial Intelligence 6(4), 293–326, 1975.
 — A foundational reference for formalizing large-scale search, particularly for Problem 3.
 
+## Solvers
+
+- Keisuke Nakano
+  [https://github.com/ksk/tppmark2026-othello](https://github.com/ksk/tppmark2026-othello)
+
+- Mirai Ikebuchi
+  please use [ZFCert](https://github.com/mir-ikbch/zfcert)
+
+- Riccardo Borsetto
+  
+  Please begin with writeup.pdf and README.md.
+
+- Hiromi Ishii
+  (private communication)
+
 [Back to the TPP 2026 English page]({{ '/en/' | relative_url }}) / [日本語版]({{ '/ja/tpp2026mark/' | relative_url }})
